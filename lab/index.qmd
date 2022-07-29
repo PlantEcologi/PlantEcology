@@ -3,23 +3,24 @@ title: ""
 ---
 
 ::: column-margin
-![](Drosera capensis.jpg)
+![](Drosera%20capensis.jpg)
 :::
 
 ## Map
-```{r echo = F}
-#library(leaflet)
 
-# content <- paste(sep = "We are here!!!",
-#   "Rm 3.11 HW Pearson Building",
-#   "University Ave N, Rondebosch",
-#   "University of Cape Town",
-#   "Cape Town, 7701")
-# 
-# leaflet() %>% addTiles() %>%
-#   addPopups(-33.956549,18.4612001, content,
-#     options = popupOptions(closeButton = FALSE)
-#   )
+```{r echo = F}
+library(leaflet)
+
+content <- "We are here!!! <br>
+  Rm 3.11, HW Pearson Building <br>
+  University Ave N, Rondebosch <br>
+  University of Cape Town <br>
+  Cape Town, 7701"
+
+leaflet() %>% addTiles() %>%
+  addPopups(18.4612001, -33.956549, content,
+    options = popupOptions(closeButton = FALSE)
+  )
 ```
 
 Here's a [Google Maps pin](https://goo.gl/maps/JCMpyVMdcbupG2UWA).

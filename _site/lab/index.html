@@ -55,6 +55,15 @@ ul.task-list{list-style: none;}
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="../site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -150,7 +159,10 @@ ul.task-list{list-style: none;}
 </div></div><section id="map" class="level2">
 <h2 class="anchored" data-anchor-id="map">Map</h2>
 <div class="cell">
-
+<div class="cell-output-display">
+<div id="htmlwidget-7934602f33cbb57f2245" style="width:100%;height:464px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7934602f33cbb57f2245">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[-33.956549,18.4612001,"We are here!!! <br>\n  Rm 3.11, HW Pearson Building <br>\n  University Ave N, Rondebosch <br>\n  University of Cape Town <br>\n  Cape Town, 7701",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":false,"className":""}]}],"limits":{"lat":[-33.956549,-33.956549],"lng":[18.4612001,18.4612001]}},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 <p>Here’s a <a href="https://goo.gl/maps/JCMpyVMdcbupG2UWA">Google Maps pin</a>.</p>
 </section>
