@@ -6,6 +6,11 @@ title: ""
 ![](Drosera%20capensis.jpg)
 :::
 
+## Lab Manual
+
+For all things lab-related, from core values to how meetings work and buying things, please visit the [lab manual](https://www.ecologi.st/lab-manual/).
+
+
 ## Map
 
 ```{r echo = F}
@@ -18,13 +23,11 @@ content <- "We are here!!! <br>
   Cape Town, 7701"
 
 leaflet() %>% addTiles() %>%
-  addPopups(18.4612001, -33.956549, content,
+  addPopups(18.461628, -33.956174, content,
     options = popupOptions(closeButton = FALSE)
   )
 ```
 
 Here's a [Google Maps pin](https://goo.gl/maps/JCMpyVMdcbupG2UWA).
 
-## Lab Manual
 
-For all things lab-related, from core values to how meetings work and how to buy things, please visit the [lab manual](https://www.ecologi.st/lab-manual/).
