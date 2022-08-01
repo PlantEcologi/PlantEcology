@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Plant Ecology UCT</title>
-<link>https://www.myblogexample.io/news/index.html</link>
-<atom:link href="https://www.myblogexample.io/news/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://plantecolo.gy/news/index.html</link>
+<atom:link href="https://plantecolo.gy/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Research lab in the Department of Biological Sciences at the University of Cape Town</description>
 <generator>quarto-0.9.651</generator>
 <lastBuildDate>Thu, 28 Apr 2022 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://www.myblogexample.io/news/posts/post-with-code/index.html</link>
+  <link>https://plantecolo.gy/news/posts/post-with-code/index.html</link>
   <description><![CDATA[ 
 
 
@@ -28,30 +28,30 @@
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://www.myblogexample.io/news/posts/post-with-code/index.html</guid>
+  <guid>https://plantecolo.gy/news/posts/post-with-code/index.html</guid>
   <pubDate>Thu, 28 Apr 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://www.myblogexample.io/news/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://plantecolo.gy/news/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Tristan O'Malley</dc:creator>
-  <link>https://www.myblogexample.io/news/posts/welcome/index.html</link>
+  <link>https://plantecolo.gy/news/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
 
 
 
 <p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://www.myblogexample.io/news/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://plantecolo.gy/news/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://www.myblogexample.io/news/posts/welcome/index.html</guid>
+  <guid>https://plantecolo.gy/news/posts/welcome/index.html</guid>
   <pubDate>Mon, 25 Apr 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://www.myblogexample.io/news/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://plantecolo.gy/news/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

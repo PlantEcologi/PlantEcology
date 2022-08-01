@@ -6,12 +6,13 @@ website:
   favicon: assets/icon.png
   twitter-card: true
   opengraph: true
-  site-url: https://www.myblogexample.io
+  site-url: https://plantecolo.gy
   description: "Research lab in the Department of Biological Sciences at the University of Cape Town"
-  page-navigation: true
   reader-mode: true
-  repo-url: https://github.com/jslingsby/PlantEcology
+  repo-url: https://github.com/PlantEcologi/PlantEcology
   repo-actions: [edit, issue]
+  page-navigation: true
+  page-footer: "Made with Quarto. Images copyright. Text CC-BY-4.0. Template CC-0." 
   navbar:
     background: light
     foreground: secondary
