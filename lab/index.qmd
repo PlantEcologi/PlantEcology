@@ -17,14 +17,14 @@ For all things lab-related, from core values to how meetings work and buying thi
 library(leaflet)
 
 content <- "We are here!!! <br>
-  Rm 3.11, HW Pearson Building <br>
+  Rm 3.01, HW Pearson Building <br>
   University Ave N, Rondebosch <br>
   University of Cape Town <br>
   Cape Town, 7701"
 
 leaflet() %>% addTiles() %>%
   addPopups(18.461628, -33.956174, content,
-    options = popupOptions(closeButton = FALSE)
+    options = popupOptions(closeButton = TRUE, interactive = T)
   )
 ```
 
