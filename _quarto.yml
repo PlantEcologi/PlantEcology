@@ -5,7 +5,7 @@ website:
   title: "Plant Ecology UCT"
   favicon: assets/icon.png
   twitter-card: true
-  opengraph: true
+  open-graph: true
   site-url: https://plantecolo.gy
   description: "Research lab in the Department of Biological Sciences at the University of Cape Town"
   reader-mode: true

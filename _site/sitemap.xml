@@ -1,115 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.myblogexample.io/index.html</loc>
-    <lastmod>2022-07-29T11:35:55.018Z</lastmod>
+    <loc>https://plantecolo.gy/projects/past/rretool/index.html</loc>
+    <lastmod>2023-02-18T20:55:56.046Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/about.html</loc>
-    <lastmod>2022-07-29T11:35:59.830Z</lastmod>
+    <loc>https://plantecolo.gy/projects/index.html</loc>
+    <lastmod>2023-02-18T20:55:56.360Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/news/index.html</loc>
-    <lastmod>2022-07-29T08:30:51.994Z</lastmod>
+    <loc>https://plantecolo.gy/projects/about.html</loc>
+    <lastmod>2023-02-18T20:55:56.647Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/news/about.html</loc>
-    <lastmod>2022-07-29T08:30:52.518Z</lastmod>
+    <loc>https://plantecolo.gy/projects/current/emsafrica/index.html</loc>
+    <lastmod>2023-02-18T20:55:56.920Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/news/posts/welcome/index.html</loc>
-    <lastmod>2022-07-29T08:30:52.990Z</lastmod>
+    <loc>https://plantecolo.gy/projects/current/bioscape/index.html</loc>
+    <lastmod>2023-02-18T20:55:57.154Z</lastmod>
   </url>
   <url>
-    <loc>https://www.myblogexample.io/news/posts/post-with-code/index.html</loc>
-    <lastmod>2022-07-29T08:30:53.410Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/index.html</loc>
-    <lastmod>2022-07-29T08:30:57.030Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/about.html</loc>
-    <lastmod>2022-07-29T08:30:59.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/posts/welcome/index.html</loc>
-    <lastmod>2022-04-29T20:15:57.773Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/posts/post-with-code/index.html</loc>
-    <lastmod>2022-04-29T20:15:57.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/lab/index.html</loc>
-    <lastmod>2022-07-29T11:29:53.846Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/lab/references.html</loc>
-    <lastmod>2022-07-05T11:00:39.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/lab/summary.html</loc>
-    <lastmod>2022-07-05T11:00:39.944Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/lab/intro.html</loc>
-    <lastmod>2022-07-05T11:00:40.892Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/teaching/index.html</loc>
-    <lastmod>2022-07-29T08:30:53.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/teaching/about.html</loc>
-    <lastmod>2022-07-29T08:30:55.902Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/posts/bioscape/index.html</loc>
-    <lastmod>2022-07-06T11:41:39.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/posts/emsafrica/index.html</loc>
-    <lastmod>2022-07-06T11:41:38.638Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/posts/emma/index.html</loc>
-    <lastmod>2022-07-06T11:41:39.110Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/posts/rretool/index.html</loc>
-    <lastmod>2022-07-06T12:05:11.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/current/emsafrica/index.html</loc>
-    <lastmod>2022-07-29T08:30:57.498Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/current/emma/index.html</loc>
-    <lastmod>2022-07-29T08:30:57.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/current/bioscape/index.html</loc>
-    <lastmod>2022-07-29T08:30:58.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/projects/past/rretool/index.html</loc>
-    <lastmod>2022-07-29T08:30:58.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.myblogexample.io/lab/about.html</loc>
-    <lastmod>2022-07-29T08:30:51.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/index.html</loc>
-    <lastmod>2022-08-23T13:19:19.342Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/news/index.html</loc>
-    <lastmod>2022-08-01T19:54:46.660Z</lastmod>
+    <loc>https://plantecolo.gy/projects/current/emma/index.html</loc>
+    <lastmod>2023-02-18T20:55:57.398Z</lastmod>
   </url>
   <url>
     <loc>https://plantecolo.gy/lab/index.html</loc>
-    <lastmod>2022-08-23T13:26:41.371Z</lastmod>
+    <lastmod>2023-02-18T20:55:58.094Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/lab/about.html</loc>
+    <lastmod>2023-02-18T20:55:58.897Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/index.html</loc>
+    <lastmod>2023-02-18T20:55:59.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/about.html</loc>
+    <lastmod>2023-02-18T20:55:59.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/news/posts/post-with-code/index.html</loc>
+    <lastmod>2023-02-18T20:55:59.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/news/posts/welcome/index.html</loc>
+    <lastmod>2023-02-18T20:55:59.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/news/index.html</loc>
+    <lastmod>2023-02-18T20:56:00.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/news/about.html</loc>
+    <lastmod>2023-02-18T20:56:00.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/teaching/bio3018f/index.html</loc>
+    <lastmod>2023-02-18T20:56:02.499Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/teaching/bio3018f/about.html</loc>
+    <lastmod>2023-02-18T20:56:03.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/teaching/index.html</loc>
+    <lastmod>2023-02-18T20:56:03.499Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/teaching/about.html</loc>
+    <lastmod>2023-02-18T20:56:04.215Z</lastmod>
   </url>
 </urlset>

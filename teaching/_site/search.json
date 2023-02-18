@@ -18,6 +18,62 @@
     "href": "index.html#materials",
     "title": "teaching",
     "section": "Materials",
+    "text": "Materials\nThis section points to our teaching resources, but they’re mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a CC BY 4.0 license, so feel free to reuse unless otherwise indicated. If you’re not sure, get in touch.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reporoducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)\n\n\n\nOther materials\n\nData skills (website)"
+  },
+  {
+    "objectID": "bio3018f/index.html#mission",
+    "href": "bio3018f/index.html#mission",
+    "title": "teaching",
+    "section": "Mission",
+    "text": "Mission\nWe aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the “facts” presented in whatever walk of life they choose.\nWe hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing “the pleasure of finding things out” sensu Richard Feynman."
+  },
+  {
+    "objectID": "bio3018f/index.html#materials",
+    "href": "bio3018f/index.html#materials",
+    "title": "teaching",
+    "section": "Materials",
     "text": "Materials\nThis section points to our teaching resources, but they’re mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a CC BY 4.0 license, so feel free to reuse unless otherwise indicated. If you’re not sure, get in touch.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reporoducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity (Git repo incl. pdf lectures)\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)\n\n\n\nOther materials\n\nData skills (website)"
+  },
+  {
+    "objectID": "bio3018f/about.html",
+    "href": "bio3018f/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "bio3018f/index.html#lectures",
+    "href": "bio3018f/index.html#lectures",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Lectures",
+    "text": "Lectures\nPDFs of my 2023 lectures are currently available through the course GitHub repository. I hope to add them as HTML slides that you can view here at a later stage…"
+  },
+  {
+    "objectID": "bio3018f/index.html#practical",
+    "href": "bio3018f/index.html#practical",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Practical",
+    "text": "Practical\nThe rest of this section covers the analysis and write-up of the practical we did on Biodiversity and Ecosystem Function in the Cape Floristic Region.\nI provide R code below, which you can run on your own laptops if you have R installed (and it helps to have RStudio or similar. Alternatively, you can sign up for an account on Posit Cloud, which allows you to run the code on a cloud machine from your internet browser. Make sure to use your university email address as it allows you more free resources."
+  },
+  {
+    "objectID": "bio3018f/index.html#field-methods",
+    "href": "bio3018f/index.html#field-methods",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Field Methods",
+    "text": "Field Methods\nThe sites are selected to represent contrasting vegetation, but to all be the same (or similar) post-fire age (time since last fire). We will split into 4 teams of 2 or 3. Each pair will survey a point location (towards the corners) within the 250 by 250m MODIS satellite mission pixel that makes up each site.\nEach team will need:\n\nOne or more smartphones\n2 x 10m measuring tape (or longer)\n1 x clipboard, paper and pen or pencil\n1 x densiometer\n1 x metre rule\n1 x Vernier calipers\n8 x large plastic bags for carrying soil and plant samples for each point location\n8 x soil sample bags\n2 x masking tape\n2 x marker pen\n\nAt each site, navigate to your team’s point location, lay out the two tapes at 90 degrees, crossing at 3.2m and ending at 6.4m. Consider this your guide for a 3.2m radius (~20m2) circle. Within the circle we will measure:\n\nEnvironmental conditions:\n\n\nEstimate % projected cover (think the area you would see from above) bare soil\nTake a densiometer reading at ground level. To do this, hold the densiometer level on the soil surface. Pick a spot close to the centre, but try not to pick an obviously open (or closed) patch, it should be representative of the location. To take a reading, split each square into quarters and score them for the amount of light visible - a value from 0 (complete canopy cover) to 4 (no vegetation visible) - counting up these values for all 24 squares (to a maximum of 96), and write this down. We will convert this to canopy cover later, applying the formula \\(100 - 1.04*X\\), where \\(X\\) is your reading.\nTake a soil sample (we are going to pool the 4 samples per site). These we will process for soil pH.\nDo a dung count, scoring dung for the point location by the number of quarters where you find dung (i.e. a single score from 0-4 for the point location). Try to avoid scoring obvious single scat (“dung creation”) events in more than one quadrat, unless it’s an impressive pile.\nTake a few notes (and photos) on any other features that you think may be important or interesting (slope, rockiness, whatever).\n\n\n\nDiversity sampling:\n\n\nFirst, make sure your smartphone is fully charged and set to record GPS location with your photographs!\nWith your team, decide on which are the top 5 species by % projected cover. If your site is dominated by fewer than 5 species, count up as many species as make up 80% of the vegetation.\n\nTake diagnostic photos for the 5 species (habit (whole plant), leaf, base, flowers and/or fruits).\nFor each of three individuals of your 5 target species, measure the height and canopy diameter in 2 dimensions (perpendicular). Then collect shoots for measuring leaf traits back at the lab (leaf length, width, area and dry mass). You need to collect enough to be able to process at least 3 leaves per sample (more if the species has tiny leaves). Mark each sample with masking tape and put in sample bag for the site.\n\nFinally, set a timer and take as many photos of new species (other than your 5 target species) within or near your plot as you can before the alarm goes off. Make sure to take a photo of your site label on your sample bag between sites so you know which photos were collected at which sites. When we get back to base you will upload the photos to folders in the intranet labeled by site."
+  },
+  {
+    "objectID": "bio3018f/index.html#ecosystem-function",
+    "href": "bio3018f/index.html#ecosystem-function",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Ecosystem function",
+    "text": "Ecosystem function\nTo explore ecosystem function I looked at the 20-year time series of the Normalized Difference Vegetation Index (NDVI) recorded by the MODIS satellite mission. From these I used the post-fire recovery trajectory modelling framework developed by Wilson et al (2015) to derive estimates of a series of parameters illustrated in this figure and explained below:\n\n\n\n\n\nStylized postfire recovery curve from Slingsby et al. (2020).\n\n\n\n\n\nalpha = starting NDVI after a fire (lower stippled line above)\ngamma = the difference between alpha and the asymptote of NDVI (i.e. alpha + gamma = estimated steady long-term NDVI (upper stippled line above))\nlambda = 1/recovery rate after fire (i.e. the smaller the value the faster the rate of recovery)\nA = the magnitude of seasonality (the absolute value indicates the magnitude, ignore the sign (+/-) for now)\nphi = the timing (phi) of seasonality as our measures of ecosystem function."
   }
 ]

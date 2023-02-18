@@ -1,234 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Plant Ecology UCT",
+    "objectID": "projects/past/rretool/index.html",
+    "href": "projects/past/rretool/index.html",
+    "title": "RReTool",
     "section": "",
-    "text": "{width=40%, fig.align = ‘center’}"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Plant Ecology UCT",
-    "section": "",
-    "text": "Our mission is to improve our fundamental understanding of African ecosystems and translate that knowledge into tools to assist the management and conservation of their biodiversity and contributions to people."
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 29, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 26, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/about.html",
-    "href": "news/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "news/posts/welcome/index.html",
-    "href": "news/posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "news/posts/post-with-code/index.html",
-    "href": "news/posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "about.html#people",
-    "href": "about.html#people",
-    "title": "About",
-    "section": "People",
-    "text": "People"
-  },
-  {
-    "objectID": "about.html#the-people",
-    "href": "about.html#the-people",
-    "title": "Plant Ecology UCT",
-    "section": "The People",
-    "text": "The People"
+    "text": "The NRF-funded RReTool project focused on developing Rapid and Repeatable tools for monitoring and mitigating global change impacts on natural resources in South Africa, predominantly using remote sensing.\nRecent advances in the availability of regularly updated, high resolution remotely-sensed data, combined with advances in computation have made it possible to monitor ecosystems at higher spatial and temporal resolution than previously possible. Much of the focus in research and the development of tools to make use of this new data has been in the forested ecosystems of the northern hemisphere and the tropics. More than 90% of South Africa’s terrestrial surface is covered by “open” non-forest ecosystems such as shrublands, woodlands and grasslands. Detecting abnormal change in these ecosystems is highly challenging, because the state of the vegetation varies dramatically due to natural disturbances, long-term trends or cyclical functions, such as those relating to fire, postfire recovery, and seasonality. Overcoming these challenges is critical, because open ecosystems dominate much of the globe, making up >40% of the global total ecosystem organic carbon and harbour a substantial proportion of the world’s biological diversity.\nWith the National Research Foundation funded RReTool project, we are developing tools to make full use of the potential of satellite data for monitoring the non-forests ecosystems that dominate South Africa, and to deepen our understanding of how they vary in space and time. Using this information we are improving our ability to manage and mitigate the impacts of threats such as invasive alien plants, land cover transformation and climatic change. All of this is being achieved using only freely available open source software, and publicly available data, and reproducible research principles. The information and tools generated will therefore be available at no expense to researchers and managers to use and modify as needed, allowing outputs to be regularly updated and/or improved. This will ensure that environmental resource management is informed by up-to-date accurate data."
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nbiogeography\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nremote sensing\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nremote sensing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/about.html",
-    "href": "projects/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "projects/posts/welcome/index.html",
-    "href": "projects/posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "projects/posts/post-with-code/index.html",
-    "href": "projects/posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "about.html#the-lab",
-    "href": "about.html#the-lab",
-    "title": "About",
-    "section": "The Lab",
-    "text": "The Lab"
-  },
-  {
-    "objectID": "lab/index.html",
-    "href": "lab/index.html",
-    "title": "Plant Ecology UCT",
-    "section": "",
-    "text": "See https://github.com/quarto-dev/quarto-cli/issues/638 for embedding a book?\nMission:\n\nMission statement\n\nResearch\nTeaching\nMentorship\n\nCore values\nExpectations:\n\nlab expectations\nlab personnel policy\nlab structure\nequipment\nfieldwork\nfunding\nbuying things\ngeneral advice\n\n\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
-  },
-  {
-    "objectID": "lab/references.html",
-    "href": "lab/references.html",
-    "title": "UCT Plant Ecology Lab",
-    "section": "",
-    "text": "References"
-  },
-  {
-    "objectID": "lab/summary.html",
-    "href": "lab/summary.html",
-    "title": "UCT Plant Ecology Lab",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "lab/intro.html",
-    "href": "lab/intro.html",
-    "title": "UCT Plant Ecology Lab",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching materials",
-    "section": "",
-    "text": "This section points to teaching resources mostly hosted elsewhere. The plan is to embed them in this webpage in future.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reporoducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity (Git repo with lectures as PDFs)\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)\n\n\n\nOther materials\n\nData skills (website)"
-  },
-  {
-    "objectID": "teaching/about.html",
-    "href": "teaching/about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "teaching/index.html#other-materials",
-    "href": "teaching/index.html#other-materials",
-    "title": "Teaching materials",
-    "section": "Other materials",
-    "text": "Other materials\n\nData skills"
-  },
-  {
-    "objectID": "teaching/index.html#teaching-mission",
-    "href": "teaching/index.html#teaching-mission",
-    "title": "Plant Ecology UCT",
-    "section": "Teaching mission",
-    "text": "Teaching mission\nWe aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the “facts” presented in whatever walk of life they choose.\nWe hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing “the pleasure of finding things out” sensu Richard Feynman."
-  },
-  {
-    "objectID": "teaching/index.html#materials",
-    "href": "teaching/index.html#materials",
-    "title": "Plant Ecology UCT",
-    "section": "Materials",
-    "text": "Materials\nThis section points to our teaching resources, but they’re mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a CC BY 4.0 license, so feel free to reuse unless otherwise indicated. If you’re not sure, get in touch.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reporoducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity (Git repo incl. pdf lectures)\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)\n\n\n\nOther materials\n\nData skills (website)"
-  },
-  {
-    "objectID": "about.html#lab-members",
-    "href": "about.html#lab-members",
-    "title": "Plant Ecology UCT",
-    "section": "Lab members",
-    "text": "Lab members\n\n\nKagiso Nhlapo\nMSc candidate mapping hydrological refugia in the Cape Floristic Region. Co-supervised by Tony Verboom.\n\n\n\n\nSimcelile Chenge\nPhD candidate exploring the relationships between culm (~leaf) and canopy reflectance spectra and hydrological niche preferences in Restionaceae. Co-supervised by Adam West.\n\n\n\n\nHana Petersen\nPre-hD candidate (starting 2023) exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems.\n\n\n\n\nMichelle Louw\nTechnician (EMSAfrica project)\n\n\n\n\nAnabelle Cardoso\nPostdoc (University at Buffalo and University of Cape Town)\nAnabelle is the Science Team Manager for the NASA BioSCape Campaign\n\n\n\n\nJasper Slingsby\nPrincipal Investigator\nFollowing my PhD exploring the interface between ecology and evolution in the Cape Floristic Region, I worked at the Fynbos Node of the South African Environmental Observation Network for almost a decade, focusing on global change and long term ecological research in African ecosystems. My current research blends the two, following the ethos that understanding the origins of diversity is essential if we are to understand how ecosystems function, how they are being altered by global change, and how best to manage them for desirable outcomes."
-  },
-  {
-    "objectID": "teaching/index.html#mission",
-    "href": "teaching/index.html#mission",
-    "title": "Plant Ecology UCT",
-    "section": "Mission",
-    "text": "Mission\nWe aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the “facts” presented in whatever walk of life they choose.\nWe hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing “the pleasure of finding things out” sensu Richard Feynman."
-  },
-  {
-    "objectID": "projects/posts/bioscape/index.html",
-    "href": "projects/posts/bioscape/index.html",
-    "title": "NASA BioSCape Campaign",
-    "section": "",
-    "text": "For more information, see the campaign website."
-  },
-  {
-    "objectID": "projects/posts/emsafrica/index.html",
-    "href": "projects/posts/emsafrica/index.html",
-    "title": "EMSAfrica",
-    "section": "",
-    "text": "For more information see the project website."
-  },
-  {
-    "objectID": "projects/posts/emma/index.html",
-    "href": "projects/posts/emma/index.html",
-    "title": "EMMA",
-    "section": "",
-    "text": "For more information, see the project website."
-  },
-  {
-    "objectID": "projects/posts/rretool/index.html",
-    "href": "projects/posts/rretool/index.html",
-    "title": "RReTool",
-    "section": "",
-    "text": "Recent advances in the availability of regularly updated, high resolution remotely-sensed data, combined with advances in computation have made it possible to monitor ecosystems at higher spatial and temporal resolution than previously possible. Much of the focus in research and the development of tools to make use of this new data has been in the forested ecosystems of the northern hemisphere and the tropics. More than 90% of South Africa’s terrestrial surface is covered by “open” non-forest ecosystems such as shrublands, woodlands and grasslands. Detecting abnormal change in these ecosystems is highly challenging, because the state of the vegetation varies dramatically due to natural disturbances, long-term trends or cyclical functions, such as those relating to fire, postfire recovery, and seasonality. Overcoming these challenges is critical, because open ecosystems dominate much of the globe, making up >40% of the global total ecosystem organic carbon and harbour a substantial proportion of the world’s biological diversity.\nWith the National Research Foundation funded RReTool project, we are developing tools to make full use of the potential of satellite data for monitoring the non-forests ecosystems that dominate South Africa, and to deepen our understanding of how they vary in space and time. Using this information we are improving our ability to manage and mitigate the impacts of threats such as invasive alien plants, land cover transformation and climatic change. All of this is being achieved using only freely available open source software, and publicly available data, and reproducible research principles. The information and tools generated will therefore be available at no expense to researchers and managers to use and modify as needed, allowing outputs to be regularly updated and/or improved. This will ensure that environmental resource management is informed by up-to-date accurate data."
-  },
-  {
-    "objectID": "projects/current/emsafrica/index.html",
-    "href": "projects/current/emsafrica/index.html",
-    "title": "EMSAfrica",
-    "section": "",
-    "text": "For more information see the project website."
-  },
-  {
-    "objectID": "projects/current/emma/index.html",
-    "href": "projects/current/emma/index.html",
-    "title": "EMMA",
-    "section": "",
-    "text": "For more information, see the project website."
-  },
-  {
-    "objectID": "projects/current/bioscape/index.html",
-    "href": "projects/current/bioscape/index.html",
-    "title": "NASA BioSCape Campaign",
-    "section": "",
-    "text": "For more information, see the campaign website."
-  },
-  {
-    "objectID": "projects/past/rretool/index.html",
-    "href": "projects/past/rretool/index.html",
-    "title": "RReTool",
-    "section": "",
-    "text": "Recent advances in the availability of regularly updated, high resolution remotely-sensed data, combined with advances in computation have made it possible to monitor ecosystems at higher spatial and temporal resolution than previously possible. Much of the focus in research and the development of tools to make use of this new data has been in the forested ecosystems of the northern hemisphere and the tropics. More than 90% of South Africa’s terrestrial surface is covered by “open” non-forest ecosystems such as shrublands, woodlands and grasslands. Detecting abnormal change in these ecosystems is highly challenging, because the state of the vegetation varies dramatically due to natural disturbances, long-term trends or cyclical functions, such as those relating to fire, postfire recovery, and seasonality. Overcoming these challenges is critical, because open ecosystems dominate much of the globe, making up >40% of the global total ecosystem organic carbon and harbour a substantial proportion of the world’s biological diversity.\nWith the National Research Foundation funded RReTool project, we are developing tools to make full use of the potential of satellite data for monitoring the non-forests ecosystems that dominate South Africa, and to deepen our understanding of how they vary in space and time. Using this information we are improving our ability to manage and mitigate the impacts of threats such as invasive alien plants, land cover transformation and climatic change. All of this is being achieved using only freely available open source software, and publicly available data, and reproducible research principles. The information and tools generated will therefore be available at no expense to researchers and managers to use and modify as needed, allowing outputs to be regularly updated and/or improved. This will ensure that environmental resource management is informed by up-to-date accurate data."
-  },
-  {
-    "objectID": "projects/index.html#meeting-notes",
-    "href": "projects/index.html#meeting-notes",
-    "title": "Projects",
-    "section": "Meeting Notes",
-    "text": "Meeting Notes\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nbiogeography\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nremote sensing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nremote sensing\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html#past-projects",
@@ -238,11 +21,32 @@
     "text": "Past projects\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRReTool\n\n\n\nremote sensing\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "lab/index.html#map",
-    "href": "lab/index.html#map",
-    "title": "Plant Ecology UCT",
-    "section": "Map",
-    "text": "Map\n\n\n\n\n\n\nHere’s a Google Maps pin."
+    "objectID": "projects/about.html",
+    "href": "projects/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "projects/current/emsafrica/index.html",
+    "href": "projects/current/emsafrica/index.html",
+    "title": "EMSAfrica",
+    "section": "",
+    "text": "EMSAfrica is a collaborative research project between South Africa and Germany, bringing together different scientific disciplines and approaches to understand the impacts of land-use and climate change on the structure and function of southern African terrestrial ecosystems. The data and products are used to develop and test models and produce information relevant to ecosystem management in the region.\nFor more information see the project website."
+  },
+  {
+    "objectID": "projects/current/bioscape/index.html",
+    "href": "projects/current/bioscape/index.html",
+    "title": "NASA BioSCape Campaign",
+    "section": "",
+    "text": "The Biodiversity Survey of the Cape (BioSCape) is a NASA field campaign focused on the Greater Cape Floristic Region of South Africa. It is the first ever NASA campaign focused on remote sensing of biodiversity.\nFor more information, see the campaign website."
+  },
+  {
+    "objectID": "projects/current/emma/index.html",
+    "href": "projects/current/emma/index.html",
+    "title": "EMMA",
+    "section": "",
+    "text": "The Ecosystem Monitoring for Management Application (EMMA) is a NASA funded project to develop a near-real-time satellite change detection system for the Fynbos Biome using an ecological forecasting approach. It is based on the proof of concept published in Slingsby et al. 2020.\nFor more information, see the project website."
   },
   {
     "objectID": "lab/index.html#lab-manual",
@@ -252,10 +56,129 @@
     "text": "Lab Manual\nFor all things lab-related, from core values to how meetings work and buying things, please visit the lab manual."
   },
   {
+    "objectID": "lab/index.html#map",
+    "href": "lab/index.html#map",
+    "title": "Plant Ecology UCT",
+    "section": "Map",
+    "text": "Map\n\n\n\n\n\n\nHere’s a Google Maps pin."
+  },
+  {
     "objectID": "lab/about.html",
     "href": "lab/about.html",
     "title": "About",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Plant Ecology UCT",
+    "section": "",
+    "text": "Our mission is to improve our fundamental understanding of African ecosystems and translate that knowledge into tools to assist the management and conservation of their biodiversity and contributions to people."
+  },
+  {
+    "objectID": "about.html#lab-members",
+    "href": "about.html#lab-members",
+    "title": "Plant Ecology UCT",
+    "section": "Lab members",
+    "text": "Lab members\n\n\nKagiso Nhlapo\nMSc candidate mapping hydrological refugia in the Cape Floristic Region. Co-supervised by Tony Verboom.\n\n\n\n\nSimcelile Chenge\nPhD candidate exploring the relationships between culm (~leaf) and canopy reflectance spectra and hydrological niche preferences in Restionaceae. Co-supervised by Adam West.\n\n\n\n\nHana Petersen\nPre-hD candidate (starting 2023) exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems.\n\n\n\n\nMichelle Louw\nTechnician (EMSAfrica project)\n\n\n\n\nAnabelle Cardoso\nPostdoc (University at Buffalo and University of Cape Town)\nAnabelle is the Science Team Manager for the NASA BioSCape Campaign\n\n\n\n\nJasper Slingsby\nPrincipal Investigator\nFollowing my PhD exploring the interface between ecology and evolution in the Cape Floristic Region, I worked at the Fynbos Node of the South African Environmental Observation Network for almost a decade, focusing on global change and long term ecological research in African ecosystems. My current research blends the two, following the ethos that understanding the origins of diversity is essential if we are to understand how ecosystems function, how they are being altered by global change, and how best to manage them for desirable outcomes."
+  },
+  {
+    "objectID": "news/posts/post-with-code/index.html",
+    "href": "news/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "news/posts/welcome/index.html",
+    "href": "news/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 29, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 26, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/about.html",
+    "href": "news/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "teaching/bio3018f/index.html#lectures",
+    "href": "teaching/bio3018f/index.html#lectures",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Lectures",
+    "text": "Lectures\nPDFs of my 2023 lectures are currently available through the course GitHub repository. I hope to add them as HTML slides that you can view here at a later stage…"
+  },
+  {
+    "objectID": "teaching/bio3018f/index.html#practical",
+    "href": "teaching/bio3018f/index.html#practical",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Practical",
+    "text": "Practical\nThe rest of this section covers the analysis and write-up of the practical we did on Biodiversity and Ecosystem Function in the Cape Floristic Region.\nI provide R code below, which you can run on your own laptops if you have R installed (and it helps to have RStudio or similar). Alternatively, you can sign up for an account on Posit Cloud, which allows you to run the code on a cloud machine from your internet browser. Make sure to use your university email address as it allows you more free resources."
+  },
+  {
+    "objectID": "teaching/bio3018f/index.html#field-methods",
+    "href": "teaching/bio3018f/index.html#field-methods",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Field Methods",
+    "text": "Field Methods\nThe sites were selected to represent contrasting vegetation, differing either in their abiotic template or degree to which they have been modified, but to all be the same (or similar) post-fire age (time since last fire). We will split into 4 teams of 2 or 3. Each pair will survey a point location (towards the corners) within the 250 by 250m MODIS satellite mission pixel that makes up each site.\nEach team will need:\n\nOne or more smartphones\n2 x 10m measuring tape (or longer)\n1 x clipboard, paper and pen or pencil\n1 x densiometer\n1 x metre rule\n1 x Vernier calipers\n8 x large plastic bags for carrying soil and plant samples for each point location\n8 x soil sample bags\n2 x masking tape\n2 x marker pen\n\nAt each site, navigate to your team’s point location, lay out the two tapes at 90 degrees, crossing at 3.2m and ending at 6.4m. Consider this your guide for a 3.2m radius (~20m2) circle. Within the circle we will measure:\n\nEnvironmental conditions:\n\n\nEstimate % projected cover (think the area you would see from above) bare soil\nTake a densiometer reading at ground level. To do this, hold the densiometer level on the soil surface. Pick a spot close to the centre, but try not to pick an obviously open (or closed) patch, it should be representative of the location. To take a reading, split each square into quarters and score them for the amount of light visible - a value from 0 (complete canopy cover) to 4 (no vegetation visible) - counting up these values for all 24 squares (to a maximum of 96), and write this down. We will convert this to canopy cover later, applying the formula \\(100 - 1.04*X\\), where \\(X\\) is your reading.\nTake a soil sample (we are going to pool the 4 samples per site). These we will process for soil pH.\nDo a dung count, scoring dung for the point location by the number of quarters where you find dung (i.e. a single score from 0-4 for the point location). Try to avoid scoring obvious single scat (“dung creation”) events in more than one quadrat, unless it’s an impressive pile.\nTake a few notes (and photos) on any other features that you think may be important or interesting (slope, rockiness, whatever).\n\n\n\nDiversity sampling:\n\n\nFirst, make sure your smartphone is fully charged and set to record GPS location with your photographs!\nWith your team, decide on which are the top 5 species by % projected cover. If your site is dominated by fewer than 5 species, count up as many species as make up 80% of the vegetation.\n\nTake diagnostic photos for the 5 species (habit (whole plant), leaf, base, flowers and/or fruits).\nFor each of three individuals of your 5 target species, measure the height and canopy diameter in 2 dimensions (perpendicular). Then collect shoots for measuring leaf traits back at the lab (leaf length, width, area and dry mass). You need to collect enough to be able to process at least 3 leaves per sample (more if the species has tiny leaves). Mark each sample with masking tape and put in sample bag for the site.\n\nFinally, set a timer and take as many photos of new species (other than your 5 target species) within or near your plot as you can before the alarm goes off. Make sure to take a photo of your site label on your sample bag between sites so you know which photos were collected at which sites. When we get back to base you will upload the photos to folders in the intranet labeled by site."
+  },
+  {
+    "objectID": "teaching/bio3018f/index.html#ecosystem-function",
+    "href": "teaching/bio3018f/index.html#ecosystem-function",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Ecosystem function",
+    "text": "Ecosystem function\nTo explore ecosystem function we looked at the 20-year time series of the Normalized Difference Vegetation Index (NDVI) recorded by the MODIS satellite mission. From these we used the post-fire recovery trajectory modelling framework developed by Wilson et al. (2015) to derive estimates of a series of parameters that we will use as our measures of ecosystem function. These are illustrated in the figure and explained below:\n\n\n\n\n\nStylized postfire recovery curve from Slingsby et al. (2020).\n\n\n\n\n\nalpha = starting NDVI after a fire (lower stippled line )\ngamma = the difference between alpha and the asymptote of NDVI (i.e. alpha + gamma = estimated steady long-term NDVI (upper stippled line))\nlambda = 1/recovery rate after fire (i.e. the smaller the value the faster the rate of recovery)\nA = the magnitude of seasonality (the absolute value indicates the magnitude, ignore the sign (+/-) for now)\nphi = the timing of seasonality"
+  },
+  {
+    "objectID": "teaching/bio3018f/index.html#species-alpha-diversity",
+    "href": "teaching/bio3018f/index.html#species-alpha-diversity",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Species Alpha Diversity",
+    "text": "Species Alpha Diversity\nFor this I have just taken the count of species encountered at each point during our rapid photographic surveys, and the aggregated set of unique species for each site (i.e. no rarefaction etc).\n\nDiscussion hint: Do you think this is an issue for the method we used? Are there any biases we may have introduced? Justify your answer.\n\n\nSites\n\n\n\n\n\nSite\nSpecies Number\n\n\n\n\ngrass\n17\n\n\ninvasion\n15\n\n\nrenosterveld\n19\n\n\nsand\n25\n\n\nsandstone\n24\n\n\n\n\n\n\n\nPoint locations\n\n\n\n\n\nPointName\nSpecies Number\n\n\n\n\ngrass_NE\n4\n\n\ngrass_NW\n7\n\n\ngrass_SE\n3\n\n\ngrass_SW\n9\n\n\ninvasion_NE\n10\n\n\ninvasion_NW\n6\n\n\ninvasion_SE\n8\n\n\nrenosterveld_NE\n6\n\n\nrenosterveld_NW\n13\n\n\nrenosterveld_SE\n9\n\n\nrenosterveld_SW\n6\n\n\nsand_NE\n12\n\n\nsand_NW\n9\n\n\nsand_SE\n18\n\n\nsand_SW\n8\n\n\nsandstone_NE\n7\n\n\nsandstone_NW\n11\n\n\nsandstone_SE\n19\n\n\nsandstone_SW\n7"
+  },
+  {
+    "objectID": "teaching/bio3018f/index.html#species-beta-diversity",
+    "href": "teaching/bio3018f/index.html#species-beta-diversity",
+    "title": "BIO3018F Ecology & Evolution",
+    "section": "Species Beta Diversity",
+    "text": "Species Beta Diversity\nHere I calculate species beta diversity using Sorenson’s distance.\n\nDiscussion hint: Why can’t we do Bray-Curtis? What would we gain if we could?\n\n\nSites\n\n\n\n\n\n\ngrass\ninvasion\nrenosterveld\nsand\nsandstone\n\n\n\n\ngrass\n\n\n\n\n\n\n\ninvasion\n0.938\n\n\n\n\n\n\nrenosterveld\n0.778\n0.941\n\n\n\n\n\nsand\n0.952\n0.900\n0.955\n\n\n\n\nsandstone\n0.951\n0.846\n0.953\n0.551\n\n\n\n\n\n\n\n\nPoint locations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngrass_NE\ngrass_NW\ngrass_SE\ngrass_SW\ninvasion_NE\ninvasion_NW\ninvasion_SE\nrenosterveld_NE\nrenosterveld_NW\nrenosterveld_SE\nrenosterveld_SW\nsand_NE\nsand_NW\nsand_SE\nsand_SW\nsandstone_NE\nsandstone_NW\nsandstone_SE\nsandstone_SW\n\n\n\n\ngrass_NE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngrass_NW\n0.636\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngrass_SE\n0.429\n0.600\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngrass_SW\n0.692\n0.750\n0.667\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninvasion_NE\n0.857\n0.882\n0.846\n0.895\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninvasion_NW\n0.800\n0.846\n0.778\n0.867\n0.500\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninvasion_SE\n0.833\n0.867\n0.818\n0.882\n0.667\n0.286\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrenosterveld_NE\n0.800\n0.692\n0.778\n0.867\n0.875\n0.833\n0.857\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrenosterveld_NW\n0.882\n0.600\n0.875\n0.909\n0.913\n0.895\n0.905\n0.579\n\n\n\n\n\n\n\n\n\n\n\n\n\nrenosterveld_SE\n0.846\n0.625\n0.833\n0.889\n0.895\n0.867\n0.882\n0.733\n0.545\n\n\n\n\n\n\n\n\n\n\n\n\nrenosterveld_SW\n0.800\n0.538\n0.778\n0.867\n0.875\n0.833\n0.857\n0.833\n0.474\n0.333\n\n\n\n\n\n\n\n\n\n\n\nsand_NE\n0.875\n0.895\n0.867\n0.905\n0.909\n0.889\n0.900\n0.889\n0.920\n0.905\n0.889\n\n\n\n\n\n\n\n\n\n\nsand_NW\n0.846\n0.875\n0.833\n0.889\n0.789\n0.867\n0.882\n0.867\n0.909\n0.889\n0.867\n0.524\n\n\n\n\n\n\n\n\n\nsand_SE\n0.909\n0.920\n0.905\n0.926\n0.857\n0.917\n0.923\n0.917\n0.935\n0.926\n0.917\n0.400\n0.556\n\n\n\n\n\n\n\n\nsand_SW\n0.833\n0.867\n0.818\n0.882\n0.778\n0.857\n0.875\n0.857\n0.905\n0.882\n0.857\n0.700\n0.529\n0.692\n\n\n\n\n\n\n\nsandstone_NE\n0.818\n0.857\n0.800\n0.875\n0.882\n0.846\n0.867\n0.846\n0.900\n0.875\n0.846\n0.684\n0.875\n0.840\n0.733\n\n\n\n\n\n\nsandstone_NW\n0.867\n0.889\n0.857\n0.900\n0.810\n0.882\n0.789\n0.882\n0.917\n0.900\n0.882\n0.565\n0.700\n0.793\n0.789\n0.444\n\n\n\n\n\nsandstone_SE\n0.913\n0.923\n0.909\n0.929\n0.862\n0.920\n0.852\n0.920\n0.938\n0.929\n0.920\n0.613\n0.714\n0.568\n0.852\n0.615\n0.467\n\n\n\n\nsandstone_SW\n0.818\n0.857\n0.800\n0.875\n0.882\n0.846\n0.733\n0.846\n0.900\n0.875\n0.846\n0.789\n0.750\n0.920\n0.733\n0.571\n0.556\n0.538"
+  },
+  {
+    "objectID": "teaching/bio3018f/about.html",
+    "href": "teaching/bio3018f/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "teaching/index.html#mission",
+    "href": "teaching/index.html#mission",
+    "title": "Plant Ecology UCT",
+    "section": "Mission",
+    "text": "Mission\nWe aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the “facts” presented in whatever walk of life they choose.\nWe hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing “the pleasure of finding things out” sensu Richard Feynman."
+  },
+  {
+    "objectID": "teaching/index.html#materials",
+    "href": "teaching/index.html#materials",
+    "title": "Plant Ecology UCT",
+    "section": "Materials",
+    "text": "Materials\nThis section points to our teaching resources, but they’re mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a CC BY 4.0 license, so feel free to reuse unless otherwise indicated. If you’re not sure, get in touch.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reporoducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)"
+  },
+  {
+    "objectID": "teaching/about.html",
+    "href": "teaching/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

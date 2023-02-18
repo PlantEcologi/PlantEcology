@@ -1,18 +1,18 @@
 [
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/post-with-code/index.html",
-      "/news/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/past/rretool/index.html",
       "/projects/current/emsafrica/index.html",
-      "/projects/current/emma/index.html",
-      "/projects/current/bioscape/index.html"
+      "/projects/current/bioscape/index.html",
+      "/projects/current/emma/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/post-with-code/index.html",
+      "/news/posts/welcome/index.html"
     ]
   }
 ]

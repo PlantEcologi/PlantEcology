@@ -9,7 +9,7 @@
 <link>https://plantecolo.gy/news/index.html</link>
 <atom:link href="https://plantecolo.gy/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Research lab in the Department of Biological Sciences at the University of Cape Town</description>
-<generator>quarto-0.9.651</generator>
+<generator>quarto-1.2.329</generator>
 <lastBuildDate>Thu, 28 Apr 2022 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
@@ -34,7 +34,7 @@
 </item>
 <item>
   <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O'Malley</dc:creator>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
   <link>https://plantecolo.gy/news/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
