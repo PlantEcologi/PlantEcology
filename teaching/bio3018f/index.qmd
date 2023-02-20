@@ -105,10 +105,20 @@ knitr::include_graphics("images/recoverycurve.png")
 - A = the magnitude of seasonality (the absolute value indicates the magnitude, ignore the sign (+/-) for now)
 - phi = the timing of seasonality
 
+# Data
+
+Ok, now you need the data! These can be downloaded [here](https://drive.google.com/drive/folders/1iaxXmeE_ny7rIy4NFCwM0wqDrYuc88dt?usp=sharing). 
+
+- Download it and put it somewhere sensible
+- If you downloaded them as a Zip file, Unzip it
+- Wherever I read in data in the code below you will need to change the file path to match where you have it on your computer. e.g. where I say:
+  - `sdat <- read_xlsx("data/pracdatasheet2023.xlsx", sheet = "Species2023")` you need to change it to match your file path, like:
+  - `sdat <- read_xlsx("C:\\Documents\\bio3018f_pracdata\\pracdatasheet2023.xlsx", sheet = "Species2023")`
+  - NOTE that Windows wants backslashes for some reason!
 
 # Analyses
 
-Here I work through a series of analyses, providing R code. Some of the results you can use as is. Others you should fiddle with the code
+Here I work through a series of analyses, providing R code to look at measures of biodiversity (species and functional), environment and ecosystem function. I then demonstrate a few statistical tests. Some of the results you can use as is. Others you should fiddle with the code to address the questions you want to ask.
 
 ## Species Alpha Diversity
 
@@ -118,7 +128,16 @@ For this I have just taken the count of species encountered at each point during
 
 ### Sites
 
-```{r, echo = F, message=FALSE}
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Call libraries (you may need to uncomment and run the first line to install them)
+
+#install.packages(c("tidyverse", "readxl", "knitr", "FSA", "picante", "sf", "MODISTools"))
+
 library(tidyverse)
 library(readxl)
 library(knitr)
@@ -135,20 +154,27 @@ sdat <- read_xlsx("data/pracdatasheet2023.xlsx", sheet = "Species2023")
 # Get list of species by site
 #dat %>% select(Site,FullName) %>% unique() %>% View()
 
+# Get count of species by site
 site_SD <- sdat %>% 
-#  filter(Point == "SE") %>% # Select only the SE corner
+#  filter(Point == "SE") %>% # If you wnt to select only one corner - SE in this case
   select(Site, FullName) %>% 
   unique() %>%
   group_by(Site) %>%
   summarize(`Species Number` = n())
 
+# Present as a table
 kable(site_SD)
 ```
 
 ### Point locations
 
-```{r, echo = F, message=FALSE}
+R code:
 
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+#  Get count of species by point
 point_SD <- sdat %>%
   mutate(PointName = paste(Site, Point, sep = "_")) %>%
   select(PointName, FullName) %>%
@@ -156,6 +182,7 @@ point_SD <- sdat %>%
   group_by(PointName) %>%
   summarize(`Species Number` = n())
 
+# Present as a table
 kable(point_SD)
 ```
 
@@ -169,8 +196,13 @@ Here I calculate species beta diversity using Sorenson's distance.
 
 ### Sites
 
-```{r, echo = F, message=FALSE}
-# make a community data matrix
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Make a community data matrix
 site_comm <- sdat %>%
   mutate(Abundance = 1) %>%
   select(Site, FullName, Abundance) %>%
@@ -179,23 +211,32 @@ site_comm <- sdat %>%
               values_from = Abundance,
               values_fill = 0)
 
-# tomfoolery to set the row names from the first column to get the community data into the desired format for the designdist function
+# This requires some tomfoolery to set the row names from the first column to get the community data into the desired format for the designdist() function
 site_comm <- as.data.frame(unclass(site_comm))
 rownames(site_comm) <- site_comm[,1]
 site_comm <- site_comm[,-1]
 
+# Calculate Sorenson's distances
 site_BD <- designdist(site_comm, method = "(A+B-2*J)/(A+B)", terms = "binary")
 
 # some tomfoolery to present it nicely... (kable() doesn't like class "dist" - i.e. distance objects)
 msite_BD <- as.data.frame(as.matrix(site_BD)) # make it a rectangular table
 msite_BD[upper.tri(msite_BD, diag = T)] <- NA # set the top-right to "NA"
 options(knitr.kable.NA = '') # set the kable() table printing function to make NA values blank
-kable(msite_BD, digits = 3) # print a table
+
+# Present as a table
+kable(msite_BD, digits = 3)
 ```
 
 ### Point locations
-```{r, echo = F, message=FALSE}
-# make a community data matrix
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+#| 
+# Make a community data matrix
 point_comm <- sdat %>%
   mutate(PointName = paste(Site, Point, sep = "_"), Abundance = 1) %>%
   select(PointName, FullName, Abundance) %>%
@@ -209,12 +250,614 @@ point_comm <- as.data.frame(unclass(point_comm))
 rownames(point_comm) <- point_comm[,1]
 point_comm <- point_comm[,-1]
 
+# Calculate Sorenson's distances
 point_BD <- designdist(point_comm, method = "(A+B-2*J)/(A+B)", terms = "binary")
 
 # some tomfoolery to present it nicely... (kable() doesn't like class "dist" - i.e. distance objects)
 mpoint_BD <- as.data.frame(as.matrix(point_BD)) # make it a rectangular table
 mpoint_BD[upper.tri(mpoint_BD, diag = T)] <- NA # set the top-right to "NA"
 options(knitr.kable.NA = '') # set the kable() table printing function to make NA values blank
-kable(mpoint_BD, digits = 3) # print a table
+
+# Present as a table
+kable(mpoint_BD, digits = 3)
 ```
 
+
+<br>
+
+## Trait means
+
+Recall that I discussed the difference between direct trait effects and diversity effects in the lecture on Biodiversity and Ecosystem Function. Here I calculate the Community Weighted Mean (CWM) values for the traits we sampled. Note that the "weighted" indicates that the trait means are usually weighted by species abundance, cover, biomass etc. Since we only have presence/absence data wll weights will be 1. 
+
+Firstly, by site.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Read in data
+tdat <- read_xlsx("data/pracdatasheet2023.xlsx", sheet = "Traits2023")
+
+# Extract species trait means 
+traitspecies <- tdat %>% 
+  group_by(FullName) %>%
+  summarize(PlantHeight_cm = mean(PlantHeight_cm, na.rm = T), 
+            LeafLength_mm = mean(LeafLength_mm, na.rm = T), 
+            LeafDryMass_g = mean(LeafDryMassPerLeaf_g, na.rm = T),
+            LeafMassPerLength = mean(LeafDryMassPerLeaf_g, na.rm = T)/mean(LeafLength_mm, na.rm = T)) %>%
+  na.omit() # Drop and NA entries
+
+# Get list of species by site
+trsite <- tdat %>% select(Site, FullName) %>% unique()
+
+# Join list of species by site to the trait means and add column of weights
+traitsite <- left_join(trsite, traitspecies) %>% mutate(Weights = 1)
+
+# Calculating CWM 
+sitecwm <-   # New dataframe where we can inspect the result
+traitsite %>%   # First step in the next string of statements
+group_by(Site) %>%   # Groups the summary file by site
+summarize(           # Coding for how we want our CWMs summarized
+Height_cwm = weighted.mean(PlantHeight_cm, Weights, na.rm = T),   # Actual calculation of CWMs
+LeafLength_cwm = weighted.mean(LeafLength_mm, Weights, na.rm = T),
+LeafDryMass_cwm = weighted.mean(LeafDryMass_g, Weights, na.rm = T),
+LeafMassPerLength_cwm = weighted.mean(LeafMassPerLength, Weights, na.rm = T)
+)
+
+# Present as a table
+kable(sitecwm, digits = 3)
+```
+
+Some of these numbers look quite surprising, but you can have a look at the individual objects we created by typing them into your R console, e.g. `traitsite`.
+
+Now, by point.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Get list of species by point
+trpoint <- tdat %>% select(SitePoint, FullName) %>% unique()
+
+# Join list of species by site to the trait means and add column of weights
+traitpoint <- left_join(trpoint, traitspecies) %>% mutate(Weights = 1)
+
+# Calculating CWM 
+pointcwm <-   # New dataframe where we can inspect the result
+traitpoint %>%   # First step in the next string of statements
+group_by(SitePoint) %>%   # Groups the summary file by site
+summarize(           # Coding for how we want our CWMs summarized
+Height_cwm = weighted.mean(PlantHeight_cm, Weights, na.rm = T),   # Actual calculation of CWMs
+LeafLength_cwm = weighted.mean(LeafLength_mm, Weights, na.rm = T),
+LeafDryMass_cwm = weighted.mean(LeafDryMass_g, Weights, na.rm = T),
+LeafMassPerLength_cwm = weighted.mean(LeafMassPerLength, Weights, na.rm = T)
+)
+
+# Present as a table
+kable(pointcwm, digits = 3)
+```
+
+<br>
+
+## Functional Alpha Diversity
+
+Here I've estimated Functional Diversity (FD) according to the method of Petchey and Gaston (2002) for each of the points and aggregated sites using only the dominant species for which we measured traits. To apply Petchey and Gaston's method, we first need to estimate a functional dendrogram representing the functional similarity among species based on the traits we measured.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Extract species trait means and scale them to mean = 0 and sd = 0
+traits <- tdat %>% 
+  group_by(FullName) %>%
+  summarize(PlantHeight_cm = mean(PlantHeight_cm, na.rm = T), 
+            LeafLength_mm = mean(LeafLength_mm, na.rm = T), 
+            LeafDryMass_g = mean(LeafDryMassPerLeaf_g, na.rm = T),
+            LeafMassPerLength = mean(LeafDryMassPerLeaf_g, na.rm = T)/mean(LeafLength_mm, na.rm = T)) %>%
+  mutate(across(where(is.numeric), scale)) %>% #Note this line is different to "traitspecies" above
+  na.omit() # Drop and NA entries
+
+# Use the traits to create a distance matrix for the species
+trt <- as.matrix(traits[,-1])
+rownames(trt) <- traits$FullName
+D <- dist(trt)
+
+# Use this distance matrix to construct a dendrogram that represents the similarity/dissimilarity among species according to their traits
+tree <- hclust(D,"average")
+
+# Transform the dendrogram into an object of class 'phylo' (needed for the next step)
+ptree <- as.phylo(tree)
+
+# Remove unnecessary objects to keep the workspace tidy
+rm(trt, D, tree)
+
+# Plot the tree to see the relationships among species
+plot(ptree, cex = 0.45)
+```
+
+### FD by Site
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Make a community data matrix for the sites
+samp <- tdat %>%                                    # For sites, lumping all points together 
+  mutate(PointName = paste(Site, Point, sep = "_"), # Make a new name column combining Site and Point
+         Abundance = 1) %>%                         # Use number of point occurrences as "pseudo-abundance"
+  select(Site, PointName, FullName, Abundance) %>%  # Select the columns we want
+  unique() %>%                                      # Remove duplicates (there were 3 reps for each species by point)
+  group_by(FullName, Site) %>%                      # For each species within each site...
+  summarize(Abundance = sum(Abundance)) %>%         # ...sum the abundances
+  pivot_wider(names_from = FullName, 
+              values_from = Abundance,
+              values_fill = 0) %>%                  # Turn the 3 columns into a species by site community data matrix
+  na.omit()                                         # Drop and NA entries
+
+# Calculate the functional diversity for each site - see ?pd for details. Note that while the function was written for phylogenetic diversity, we've used it for functional diversity.
+sampFD <- pd(samp[,-1], ptree)
+
+# Make pretty and print table for sites
+rownames(sampFD) <- samp$Site
+colnames(sampFD)[1] <- "FD"
+kable(sampFD, digits = 3)
+
+```
+
+Remember the "species richness" (SR) here is the number of dominant species sampled for traits, not all species observed as above.
+
+
+### FD by point location:
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Make a community data matrix for the points within sites
+pointsamp <- tdat %>%                               # For points within sites 
+  mutate(PointName = paste(Site, Point, sep = "_"), # Make a new name column combining Site and Point
+         Abundance = 1) %>%                         # Use number of occurrences as pseudo-abundance
+  select(PointName, FullName, Abundance) %>%        # Select the 3 columns we want
+  unique() %>%                                      # Remove duplicates (there were 3 reps for each species by point)
+  pivot_wider(names_from = FullName, 
+              values_from = Abundance,
+              values_fill = 0)  %>%                 # Turn the 3 columns into a species by point community data matrix
+  na.omit()                                         # Drop and NA entries
+
+# Calculate FD for points
+pointsampFD <- pd(pointsamp[,-1], ptree)
+
+# Make pretty and print table for point locations
+rownames(pointsampFD) <- pointsamp$PointName
+colnames(pointsampFD)[1] <- "FD"
+kable(pointsampFD, digits = 3)
+```
+
+<br>
+
+## Functional Beta Diversity
+
+I've estimated functional similarity between sites using the method of Bryant et al. 2008. See help file `?picante::phylosor` in R for details to help know how to interpret. Note that while the function was written for phylogenetic similarity, we've used it for functional similarity.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# calculate functional turnover between sites
+sampBFD <- phylosor(samp[,-1], ptree)
+
+# some tomfoolery to present it nicely... (kable() doesn't like class "dist" - i.e. distance objects)
+msampBFD <- as.data.frame(as.matrix(sampBFD))
+dimnames(msampBFD) <- list(samp$Site, samp$Site)
+msampBFDl <- msampBFD # make a new object and keep msampBFD, because you can use it with function metaMDS() 
+msampBFDl[upper.tri(msampBFDl, diag = T)] <- NA
+options(knitr.kable.NA = '') # set table printing function to make NA values blank
+kable(msampBFDl, digits = 3) # print a table
+```
+
+And between point locations?
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# calculate functional turnover between sites
+pointsampBFD <- phylosor(pointsamp[,-1], ptree)
+
+# some tomfoolery to present it nicely... (kable() doesn't like class "dist" - i.e. distance objects)
+pmsampBFD <- as.data.frame(as.matrix(pointsampBFD))
+dimnames(pmsampBFD) <- list(pointsamp$PointName, pointsamp$PointName)
+pmsampBFDl <- pmsampBFD # make a new object and keep msampBFD, because you can use it with function metaMDS() 
+pmsampBFDl[upper.tri(pmsampBFDl, diag = T)] <- NA
+options(knitr.kable.NA = '') # set table printing function to make NA values blank
+kable(pmsampBFDl, digits = 3) # print a table
+```
+
+<br>
+
+## Environment
+
+First, let's calculate % canopy cover from the densiometer readings and then look at site-level averages for most variables.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+pdat <- read_xlsx("data/pracdatasheet2023.xlsx", sheet = "Sites2023")
+names(pdat)
+
+# Convert densiometer readings to canopy cover
+pdat$CanopyCover <- 100 - 4.16*pdat$Densiometer
+
+# Aggregate all the dung counts into one
+pdat$Dung <- pdat %>% select(Dung_Eland, Dung_Bontebok, Dung_Ostrich, Dung_Other) %>% rowSums()
+
+# Summarize environmental data to site level (i.e. take the average of point measurements)
+env <- pdat %>% 
+  group_by(Site) %>%
+  summarize(BareSoil = mean(PercentBareSoil), 
+            `Soil pH` = mean(SoilPH), 
+            Dung = mean(Dung),
+            `% Canopy Cover` = mean(CanopyCover))
+
+# Print table
+kable(env, digits = 2)
+```
+
+Or point level
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Summarize environmental data to site level (i.e. take the average of point measurements)
+penv <- pdat %>% 
+  group_by(SitePoint) %>%
+  summarize(BareSoil = mean(PercentBareSoil), 
+            `Soil pH` = mean(SoilPH), 
+            Dung = mean(Dung),
+            `% Canopy Cover` = mean(CanopyCover))
+
+# Print table
+kable(penv, digits = 2)
+```
+
+Or we can look at environmental dissimilarity among sites
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Use the environmental data to create a distance matrix among sites
+D <- dist(scale(env[,2:5])) # check ?scale - what does this function do and why do you think I used it?
+
+# some tomfoolery to present it nicely... (kable() doesn't like class "dist" - i.e. distance objects)
+edis <- as.data.frame(as.matrix(D))
+dimnames(edis) <- list(env$Site, env$Site)
+edisl <- edis # make a new object and keep edis, because we'll use it later
+edisl[upper.tri(edisl, diag = T)] <- NA
+options(knitr.kable.NA = '') # set table printing function to make NA values blank
+
+kable(edisl, digits = 3) # print a table
+```
+
+## Ecosystem function
+
+To explore ecosystem function we looked at the 20-year time-series of the Normalized Difference Vegetation Index (NDVI) recorded by the MODIS satellite mission. From these we used the post-fire recovery trajectory modelling framework developed by Wilson et al (2015) to derive estimates of the mean maximum NDVI (alpha + gamma), and the amplitude and timing of seasonality (big alpha and phi) as our measures of ecosystem function. Here I've provided a table of these parameters by site and plots of the model fits. 
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# source("prac/01_downloadNDVI.R") # this is only run once to download the MODIS data
+source("code/02_plot.NDVI.R")
+source("code/03_negexp_model.R")
+
+###Get data
+adat <- read_csv("data/modis.csv")
+#adat <- adat %>% filter(calendar_date > as.Date("2015-9-14"))
+
+###Plot all timeseries
+adat %>%
+  ggplot(aes(x = calendar_date, y = value*scale)) + 
+  geom_line() +
+#  geom_point() +
+  facet_wrap(.~ site) +
+  ylab("NDVI") +
+  ylim(0.2, 0.9)
+
+```
+
+Now let's fit the model and plot the model fit (blue) over the observed data (black circles).
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+###Loop through sites fitting the model
+
+# Get site names
+sitnms <- unique(adat$site)
+
+# Set initial parameters
+par <- c(alpha = 0.2, gamma = 0.4, lambda = 0.5, A = 0.1, phi = -1)
+
+# Make output table
+out <- data.frame(initial = par)
+
+par(mfrow=c(2,3))
+
+for(i in 1:length(sitnms)) {
+  
+dat <- adat %>% filter(site == sitnms[i])
+
+# calculate age from date
+dat$age <- (as.numeric(dat$calendar_date) - min(as.numeric(dat$calendar_date), na.rm = T))/365.25
+
+# scale NDVI
+dat$NDVI <- dat$value*dat$scale
+
+# fit models
+fit_negexpMLES <- fit.negexpS.MLE(dat, par)
+
+# plot
+plot.NDVI(dat, ylim = c(0.1, 0.9), main = sitnms[i])
+
+# add curve with MLE parameters
+lines(dat$age, pred.negexpS(fit_negexpMLES$par,dat$age), col = 'skyblue', lwd = 3)
+
+# bind to output
+out <- cbind(out, fit_negexpMLES$par)
+}
+
+# Remove unnecessary objects to keep the workspace tidy
+rm(i, par)
+```
+
+And view a table of the parameter estimates
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# tidy and present table
+names(out) <- c("initial", sitnms)
+out <- as.data.frame(t(out)[-1,])
+
+# calculate maximum greeness (alpha + gamma)
+out$alpha_gamma = out$alpha + out$gamma
+
+kable(out, digits = 3)
+```
+> _Discussion hint: Are there any obvious properties of the time-series that are not captured by these parameters? How do they differ between sites and what may the causes be?_
+
+One issue here is sample size, because we only have a few sites... One could perhaps get around the sample size issue by using a satellite with finer ground sample distance that we could relate to each point location, such as Sentinel 2 (10m GSD vs MODIS 250m). I've extracted and plotted these data below.
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+sent <- read_csv("data/sentinel.csv")
+
+###Plot all timeseries
+sent %>%
+  ggplot(aes(x = calendar_date, y = value*scale)) + 
+  geom_line() +
+  facet_grid(Site ~ Point) +
+  ylab("NDVI")
+```
+
+Unfortunately, as you can see the record is much shorter and there's a lot of variability and big jumps in the NDVI value of the finer resolution instrument. We can still try to fit the model and see what we get though.
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+###Loop through site_points fitting the model
+
+# Get joint site_point names
+pntnms <- sort(unique(paste0(sent$Site, "_", sent$Point)))
+sent$site_point <- paste0(sent$Site, "_", sent$Point)
+
+# Set initial parameters
+par <- c(alpha = 0.2, gamma = 0.4, lambda = 0.5, A = 0.1, phi = -1)
+
+# Make output table
+sout <- data.frame(initial = par)
+
+par(mfrow=c(2,3))
+
+for(i in 1:length(pntnms)) {
+  
+dat <- sent %>% filter(site_point == pntnms[i])
+
+# calculate age from date
+dat$age <- (as.numeric(dat$calendar_date) - as.numeric(as.Date("19920101", "%Y%m%d")))/365.25
+
+# scale NDVI
+dat$NDVI <- dat$value*dat$scale
+
+# fit models
+fit_negexpMLES <- fit.negexpS.MLE(dat, par)
+
+# # plot
+# plot.NDVI(dat, ylim = c(0, 1), main = sitnms[i])
+# 
+# # add curve with MLE parameters
+# lines(dat$age, pred.negexpS(fit_negexpMLES$par,dat$age), col = 'skyblue', lwd = 3)
+
+# bind to output
+sout <- cbind(sout, fit_negexpMLES$par)
+}
+
+# Remove unnecessary objects to keep the workspace tidy
+rm(i, par)
+
+
+# tidy and present table
+names(sout) <- c("initial", pntnms)
+sout <- as.data.frame(t(sout)[-1,])
+sout$alpha_gamma = sout$alpha + sout$gamma
+kable(sout, digits = 3)
+```
+
+# Statistical tests
+
+## Plotting
+
+Here's an example of how to make a boxplot of point location measures by site for one variable. You can make a panel of plots if you convert `pdat` into long format using `pivot_longer()` and adding `+ facet_wrap(~name, scales = "free")` to the end of the plotting call (where `name` is whatever you provided for the `names_to =` argument in `pivot_longer()`).
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Make boxplot of any variable using point location data
+pdat %>% ggplot() +
+  geom_boxplot(aes(y = CanopyCover, x = Site))
+```
+
+## Test for significant difference among sites 
+
+Here we use the non-parametric Kruskal-Wallis rank sum test.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Run non-parametric Kruskal-Wallis rank sum test
+kruskal.test(CanopyCover ~ Site, data = pdat)
+```
+
+And use Dunn's posthoc test to explore where the differences lie.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Dunn's Post hoc test to directly explore differences among sites
+posthoc <- dunnTest(CanopyCover ~ Site, data = pdat,
+              method="bh")
+
+kable(posthoc$res, digits = 3)
+```
+
+## Correlations 
+
+e.g. Exploring relationships between measures of biodiversity and either environmental properties or measures of ecosystem function
+
+This practical was a learning exercise and constrained by time and available resources. Perhaps the biggest drawback was the low number of (or lack of replication within) ecosystem types sampled. That said, plotting the relationships between the different site level variables gives us some indication of whether further sampling is likely to produce strong evidence of clear relationships. For this prac write up, I'll forgive you for discussing significant (p < 0.05) or near-significant (p < 0.1) relationships based on a sample size of 6... Usually, this would not be okay...
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Join site level measures of ecosystem function and environment
+out$Site <- rownames(out)
+dat <- left_join(env, out)
+
+# Plot biplots of all combinations of variables
+pairs(dat[,-1])
+
+# Perform correlations of all combinations of variables
+cor.table(dat[,-1])
+```
+
+Note that these are `r` values and not `$r^2$`.
+
+We can do the same for point level data:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Join site level measures of ecosystem function and environment
+sout$SitePoint <- rownames(sout)
+point_ef_env <- left_join(penv, sout)
+
+# Plot biplots of all combinations of variables
+pairs(point_ef_env[,-1])
+
+# Perform correlations of all combinations of variables
+cor.table(point_ef_env[,-1])
+```
+
+<br>
+
+## Test relationship among distance matrices
+
+When working with measures of beta diversity you are automatically dealing with distance matrices (i.e. the difference between two or more samples) rather than tables of point estimates (i.e site specific measures of biodiversity etc). A major problem with distance matrices is that each sample is represented more than once (usually the total number of samples minus 1) in the distance matrix, which means that the entries in the distance matrix are not independent. This violates a major assumption of most traditional statistics. For example, one cannot apply a linear model to the graph below, because each site is represented multiple times in the points on the graph (e.g. Sandstone vs Sand, Sandstone vs Renosterveld, Standstone vs Grass, etc.
+
+```{r, echo = F, message=FALSE, warning=FALSE}
+plot(as.dist(msampBFD[rownames(edis),colnames(edis)]) ~ as.dist(edis), ylab = "Functional Beta Diversity", xlab = "Environmental dissimilarity")
+```
+
+In this case we need to use methods that can explore correlations among distance matrices. Perhaps the most common of these is Mantel's test, which in this case gives:
+
+```{r, echo = F, message=FALSE, warning=FALSE}
+mantel(msampBFD[rownames(edis),colnames(edis)],edis)
+```
+
+
+## Testing for grouping of similarity among points within sites using analysis of variance using distance matrices (ADONIS)
+
+ADONIS was developed to deal with the same issue of non-independence among data points.
+
+This is a somewhat spurious example, because we'd be surprised if our point samples weren't more similar within than between sites, but the method may be handy for other analyses. see `?adonis` for details.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# split the row names into a dataframe with separate columns for site and point
+group_var <- separate(as.data.frame(row.names(point_comm)), col = 1, into = c("site", "point"), sep = "_")
+
+# run adonis analysis and report results
+adonis2(point_comm ~ site, data = group_var, permutations = 999, method = "bray")
+```
+
+
+# References (papers accessible [at this link](https://paperpile.com/shared/rCBYJb))
+
+Bergh, Nicola G., G. A. Verboom, Mathieu Rouget, and Richard M. Cowling. 2014. “Vegetation Types of the Greater Cape Floristic Region.” in Fynbos: Ecology, Evolution, and Conservation of a Megadiverse Region. Allsopp et al. (Eds)
+
+Mucina, Ladislav, Michael C. Rutherford, and Others. 2006. The Vegetation of South Africa, Lesotho and Swaziland. South African National Biodiversity Institute. https://www.cabdirect.org/cabdirect/abstract/20073221934.
+
+Petchey, Owen L., and Kevin J. Gaston. 2002. “Functional Diversity (FD), Species Richness and Community Composition.” Ecology Letters 5 (3): 402–11. https://doi.org/10.1046/j.1461-0248.2002.00339.x.
+
+Plas, Fons van der. 2019. “Biodiversity and Ecosystem Functioning in Naturally Assembled Communities.” Biological Reviews of the Cambridge Philosophical Society 94 (4): 1220–45. https://doi.org/10.1111/brv.12499.
+
+Slingsby, Jasper A., Glenn R. Moncrieff, and Adam M. Wilson. 2020. “Near-Real Time Forecasting and Change Detection for an Open Ecosystem with Complex Natural Dynamics.” ISPRS Journal of Photogrammetry and Remote Sensing.  166 (August): 15–25. https://doi.org/10.1016/j.isprsjprs.2020.05.017.
+
+Wilson, Adam M., Andrew M. Latimer, and John A. Silander Jr. 2015. “Climatic Controls on Ecosystem Resilience: Postfire Regeneration in the Cape Floristic Region of South Africa.” Proceedings of the National Academy of Sciences of the United States of America 112 (29): 9058–63. https://doi.org/10.1073/pnas.1416710112.
