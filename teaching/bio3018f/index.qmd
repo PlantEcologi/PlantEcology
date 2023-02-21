@@ -559,6 +559,27 @@ options(knitr.kable.NA = '') # set table printing function to make NA values bla
 kable(edisl, digits = 3) # print a table
 ```
 
+Or among points
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# Use the environmental data to create a distance matrix among sites
+pD <- dist(scale(penv[,2:5])) # check ?scale - what does this function do and why do you think I used it?
+
+# some tomfoolery to present it nicely... (kable() doesn't like class "dist" - i.e. distance objects)
+pedis <- as.data.frame(as.matrix(pD))
+dimnames(pedis) <- list(penv$SitePoint, penv$SitePoint)
+pedisl <- pedis # make a new object and keep pedis, because we'll use it later
+pedisl[upper.tri(pedisl, diag = T)] <- NA
+options(knitr.kable.NA = '') # set table printing function to make NA values blank
+
+kable(pedisl, digits = 3) # print a table
+```
+
 ## Ecosystem function
 
 To explore ecosystem function we looked at the 20-year time-series of the Normalized Difference Vegetation Index (NDVI) recorded by the MODIS satellite mission. From these we used the post-fire recovery trajectory modelling framework developed by Wilson et al (2015) to derive estimates of the mean maximum NDVI (alpha + gamma), and the amplitude and timing of seasonality (big alpha and phi) as our measures of ecosystem function. Here I've provided a table of these parameters by site and plots of the model fits. 
@@ -817,13 +838,19 @@ cor.table(point_ef_env[,-1])
 
 When working with measures of beta diversity you are automatically dealing with distance matrices (i.e. the difference between two or more samples) rather than tables of point estimates (i.e site specific measures of biodiversity etc). A major problem with distance matrices is that each sample is represented more than once (usually the total number of samples minus 1) in the distance matrix, which means that the entries in the distance matrix are not independent. This violates a major assumption of most traditional statistics. For example, one cannot apply a linear model to the graph below, because each site is represented multiple times in the points on the graph (e.g. Sandstone vs Sand, Sandstone vs Renosterveld, Standstone vs Grass, etc.
 
-```{r, echo = F, message=FALSE, warning=FALSE}
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
 plot(as.dist(msampBFD[rownames(edis),colnames(edis)]) ~ as.dist(edis), ylab = "Functional Beta Diversity", xlab = "Environmental dissimilarity")
 ```
 
 In this case we need to use methods that can explore correlations among distance matrices. Perhaps the most common of these is Mantel's test, which in this case gives:
 
-```{r, echo = F, message=FALSE, warning=FALSE}
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
 mantel(msampBFD[rownames(edis),colnames(edis)],edis)
 ```
 
@@ -832,7 +859,7 @@ mantel(msampBFD[rownames(edis),colnames(edis)],edis)
 
 ADONIS was developed to deal with the same issue of non-independence among data points.
 
-This is a somewhat spurious example, because we'd be surprised if our point samples weren't more similar within than between sites, but the method may be handy for other analyses. see `?adonis` for details.
+This is a somewhat spurious example, because we'd be surprised if the species composition of our point samples weren't more similar within than between sites, but the method may be handy for other analyses. see `?adonis` for details.
 
 R code:
 
@@ -847,6 +874,23 @@ group_var <- separate(as.data.frame(row.names(point_comm)), col = 1, into = c("s
 adonis2(point_comm ~ site, data = group_var, permutations = 999, method = "bray")
 ```
 
+Note that the test above calculates the distances from a community data matrix using the specified method fed to the function ("bray" in this case, which is Bray-Curtis distance, but since all abundance values are 1, this is just Sorenson's coefficient). 
+
+You can also feed the function a distance matrix. Here I test whether the environmental dissimilarity of our point samples is greater within than between sites by feeding the function the `pedis` environmental distance matrix we made earlier. Note that I remake the grouping variable from the names of the distance object to make sure that they align.
+
+R code:
+
+```{r}
+#| echo: TRUE
+#| message: FALSE
+
+# split the row names into a dataframe with separate columns for site and point
+group_var_pedis <- separate(as.data.frame(names(pedis)), col = 1, into = c("site", "point"), sep = "_")
+
+
+# run adonis analysis and report results
+adonis2(pedis ~ site, data = group_var_pedis, permutations = 999)
+```
 
 # References (papers accessible [at this link](https://paperpile.com/shared/rCBYJb))
 
