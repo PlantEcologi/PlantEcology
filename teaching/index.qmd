@@ -18,11 +18,10 @@ This section points to our teaching resources, but they're mostly hosted elsewhe
 
 #### Honours (4th year) modules (BIO4000W/BIO4001W)
 
--   [Introduction to data management and reporoducible research (bookdown site)](https://www.ecologi.st/data-management/)
+-   [Introduction to data management and reproducible research (bookdown site)](https://www.ecologi.st/data-management/)
 -   [Introduction to GIS and handling spatial data with R (bookdown site)](https://www.ecologi.st/spatial-r/)
 
 #### Third-year courses
 
 -   [Ecology & Evolution (BIO3018F): Measuring Biodiversity](/teaching/bio3018f/)
 -   [Quantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)](https://www.ecologi.st/BIO3019S_Ecoforecasting/)
-
