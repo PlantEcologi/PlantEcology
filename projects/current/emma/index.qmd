@@ -3,7 +3,7 @@ title: "EMMA"
 author: ""
 date: ""
 categories: [remote sensing, forecasting]
-image: "EMMA Logo_rect_small.jpg"
+image: "emma.png"
 ---
 
 The Ecosystem Monitoring for Management Application (EMMA) is a NASA funded project to develop a near-real-time satellite change detection system for the Fynbos Biome using an ecological forecasting approach. It is based on the proof of concept published in [Slingsby et al. 2020](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017).

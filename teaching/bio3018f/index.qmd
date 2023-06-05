@@ -12,9 +12,9 @@ PDFs of my 2023 lectures are currently available through the course [GitHub repo
 
 ## Practical
 
-The rest of this section covers the analysis and write-up of the practical we did on _Biodiversity and Ecosystem Function in the Cape Floristic Region_.
+The rest of this section covers the analysis and write-up of the practical we did on *Biodiversity and Ecosystem Function in the Cape Floristic Region*.
 
-I provide R code below, which you can run on your own laptops if you have R installed (and it helps to have RStudio or similar). Alternatively, you can sign up for an account on [Posit Cloud](https://posit.cloud/), which allows you to run the code on a cloud machine from your internet browser. Make sure to use your university email address as it allows you more free resources. 
+I provide R code below, which you can run on your own laptops if you have R installed (and it helps to have RStudio or similar). Alternatively, you can sign up for an account on [Posit Cloud](https://posit.cloud/), which allows you to run the code on a cloud machine from your internet browser. Make sure to use your university email address as it allows you more free resources.
 
 # Introduction
 
@@ -99,22 +99,22 @@ To explore ecosystem function we looked at the 20-year time series of the Normal
 knitr::include_graphics("images/recoverycurve.png")
 ```
 
-- alpha = starting NDVI after a fire (lower stippled line )
-- gamma = the difference between alpha and the asymptote of NDVI (i.e. alpha + gamma = estimated steady long-term NDVI (upper stippled line))
-- lambda = 1/recovery rate after fire (i.e. the smaller the value the faster the rate of recovery)
-- A = the magnitude of seasonality (the absolute value indicates the magnitude, ignore the sign (+/-) for now)
-- phi = the timing of seasonality
+-   alpha = starting NDVI after a fire (lower stippled line )
+-   gamma = the difference between alpha and the asymptote of NDVI (i.e. alpha + gamma = estimated steady long-term NDVI (upper stippled line))
+-   lambda = 1/recovery rate after fire (i.e. the smaller the value the faster the rate of recovery)
+-   A = the magnitude of seasonality (the absolute value indicates the magnitude, ignore the sign (+/-) for now)
+-   phi = the timing of seasonality
 
 # Data
 
-Ok, now you need the data! These can be downloaded [here](https://drive.google.com/drive/folders/1iaxXmeE_ny7rIy4NFCwM0wqDrYuc88dt?usp=sharing). 
+Ok, now you need the data! These can be downloaded [here](https://drive.google.com/drive/folders/1iaxXmeE_ny7rIy4NFCwM0wqDrYuc88dt?usp=sharing).
 
-- Download it and put it somewhere sensible
-- If you downloaded them as a Zip file, Unzip it
-- Wherever I read in data in the code below you will need to change the file path to match where you have it on your computer. e.g. where I say:
-  - `sdat <- read_xlsx("data/pracdatasheet2023.xlsx", sheet = "Species2023")` you need to change it to match your file path, like:
-  - `sdat <- read_xlsx("C:\\Documents\\bio3018f_pracdata\\pracdatasheet2023.xlsx", sheet = "Species2023")`
-  - NOTE that Windows wants backslashes for some reason!
+-   Download it and put it somewhere sensible
+-   If you downloaded them as a Zip file, Unzip it
+-   Wherever I read in data in the code below you will need to change the file path to match where you have it on your computer. e.g. where I say:
+    -   `sdat <- read_xlsx("data/pracdatasheet2023.xlsx", sheet = "Species2023")` you need to change it to match your file path, like:
+    -   `sdat <- read_xlsx("C:\\Documents\\bio3018f_pracdata\\pracdatasheet2023.xlsx", sheet = "Species2023")`
+    -   NOTE that Windows wants backslashes for some reason!
 
 # Analyses
 
@@ -122,9 +122,9 @@ Here I work through a series of analyses, providing R code to look at measures o
 
 ## Species Alpha Diversity
 
-For this I have just taken the count of species encountered at each point during our rapid photographic surveys, and the aggregated set of unique species for each site (i.e. no rarefaction etc). 
+For this I have just taken the count of species encountered at each point during our rapid photographic surveys, and the aggregated set of unique species for each site (i.e. no rarefaction etc).
 
-> _Discussion hint: Do you think this is an issue for the method we used? Are there any biases we may have introduced? Justify your answer._
+> *Discussion hint: Do you think this is an issue for the method we used? Are there any biases we may have introduced? Justify your answer.*
 
 ### Sites
 
@@ -190,9 +190,9 @@ kable(point_SD)
 
 ## Species Beta Diversity
 
-Here I calculate species beta diversity using Sorenson's distance. 
+Here I calculate species beta diversity using Sorenson's distance.
 
-> _Discussion hint: Why can't we do Bray-Curtis? What would we gain if we could?_
+> *Discussion hint: Why can't we do Bray-Curtis? What would we gain if we could?*
 
 ### Sites
 
@@ -262,12 +262,11 @@ options(knitr.kable.NA = '') # set the kable() table printing function to make N
 kable(mpoint_BD, digits = 3)
 ```
 
-
 <br>
 
 ## Trait means
 
-Recall that I discussed the difference between direct trait effects and diversity effects in the lecture on Biodiversity and Ecosystem Function. Here I calculate the Community Weighted Mean (CWM) values for the traits we sampled. Note that the "weighted" indicates that the trait means are usually weighted by species abundance, cover, biomass etc. Since we only have presence/absence data wll weights will be 1. 
+Recall that I discussed the difference between direct trait effects and diversity effects in the lecture on Biodiversity and Ecosystem Function. Here I calculate the Community Weighted Mean (CWM) values for the traits we sampled. Note that the "weighted" indicates that the trait means are usually weighted by species abundance, cover, biomass etc. Since we only have presence/absence data wll weights will be 1.
 
 Firstly, by site.
 
@@ -413,7 +412,6 @@ kable(sampFD, digits = 3)
 ```
 
 Remember the "species richness" (SR) here is the number of dominant species sampled for traits, not all species observed as above.
-
 
 ### FD by point location:
 
@@ -582,7 +580,7 @@ kable(pedisl, digits = 3) # print a table
 
 ## Ecosystem function
 
-To explore ecosystem function we looked at the 20-year time-series of the Normalized Difference Vegetation Index (NDVI) recorded by the MODIS satellite mission. From these we used the post-fire recovery trajectory modelling framework developed by Wilson et al (2015) to derive estimates of the mean maximum NDVI (alpha + gamma), and the amplitude and timing of seasonality (big alpha and phi) as our measures of ecosystem function. Here I've provided a table of these parameters by site and plots of the model fits. 
+To explore ecosystem function we looked at the 20-year time-series of the Normalized Difference Vegetation Index (NDVI) recorded by the MODIS satellite mission. From these we used the post-fire recovery trajectory modelling framework developed by Wilson et al (2015) to derive estimates of the mean maximum NDVI (alpha + gamma), and the amplitude and timing of seasonality (big alpha and phi) as our measures of ecosystem function. Here I've provided a table of these parameters by site and plots of the model fits.
 
 R code:
 
@@ -674,7 +672,8 @@ out$alpha_gamma = out$alpha + out$gamma
 
 kable(out, digits = 3)
 ```
-> _Discussion hint: Are there any obvious properties of the time-series that are not captured by these parameters? How do they differ between sites and what may the causes be?_
+
+> *Discussion hint: Are there any obvious properties of the time-series that are not captured by these parameters? How do they differ between sites and what may the causes be?*
 
 One issue here is sample size, because we only have a few sites... One could perhaps get around the sample size issue by using a satellite with finer ground sample distance that we could relate to each point location, such as Sentinel 2 (10m GSD vs MODIS 250m). I've extracted and plotted these data below.
 
@@ -763,7 +762,7 @@ pdat %>% ggplot() +
   geom_boxplot(aes(y = CanopyCover, x = Site))
 ```
 
-## Test for significant difference among sites 
+## Test for significant difference among sites
 
 Here we use the non-parametric Kruskal-Wallis rank sum test.
 
@@ -792,11 +791,11 @@ posthoc <- dunnTest(CanopyCover ~ Site, data = pdat,
 kable(posthoc$res, digits = 3)
 ```
 
-## Correlations 
+## Correlations
 
 e.g. Exploring relationships between measures of biodiversity and either environmental properties or measures of ecosystem function
 
-This practical was a learning exercise and constrained by time and available resources. Perhaps the biggest drawback was the low number of (or lack of replication within) ecosystem types sampled. That said, plotting the relationships between the different site level variables gives us some indication of whether further sampling is likely to produce strong evidence of clear relationships. For this prac write up, I'll forgive you for discussing significant (p < 0.05) or near-significant (p < 0.1) relationships based on a sample size of 6... Usually, this would not be okay...
+This practical was a learning exercise and constrained by time and available resources. Perhaps the biggest drawback was the low number of (or lack of replication within) ecosystem types sampled. That said, plotting the relationships between the different site level variables gives us some indication of whether further sampling is likely to produce strong evidence of clear relationships. For this prac write up, I'll forgive you for discussing significant (p \< 0.05) or near-significant (p \< 0.1) relationships based on a sample size of 6... Usually, this would not be okay...
 
 ```{r}
 #| echo: TRUE
@@ -854,7 +853,6 @@ In this case we need to use methods that can explore correlations among distance
 mantel(msampBFD[rownames(edis),colnames(edis)],edis)
 ```
 
-
 ## Testing for grouping of similarity among points within sites using analysis of variance using distance matrices (ADONIS)
 
 ADONIS was developed to deal with the same issue of non-independence among data points.
@@ -874,7 +872,7 @@ group_var <- separate(as.data.frame(row.names(point_comm)), col = 1, into = c("s
 adonis2(point_comm ~ site, data = group_var, permutations = 999, method = "bray")
 ```
 
-Note that the test above calculates the distances from a community data matrix using the specified method fed to the function ("bray" in this case, which is Bray-Curtis distance, but since all abundance values are 1, this is just Sorenson's coefficient). 
+Note that the test above calculates the distances from a community data matrix using the specified method fed to the function ("bray" in this case, which is Bray-Curtis distance, but since all abundance values are 1, this is just Sorenson's coefficient).
 
 You can also feed the function a distance matrix. Here I test whether the environmental dissimilarity of our point samples is greater within than between sites by feeding the function the `pedis` environmental distance matrix we made earlier. Note that I remake the grouping variable from the names of the distance object to make sure that they align.
 
@@ -894,14 +892,14 @@ adonis2(pedis ~ site, data = group_var_pedis, permutations = 999)
 
 # References (papers accessible [at this link](https://paperpile.com/shared/rCBYJb))
 
-Bergh, Nicola G., G. A. Verboom, Mathieu Rouget, and Richard M. Cowling. 2014. “Vegetation Types of the Greater Cape Floristic Region.” in Fynbos: Ecology, Evolution, and Conservation of a Megadiverse Region. Allsopp et al. (Eds)
+Bergh, Nicola G., G. A. Verboom, Mathieu Rouget, and Richard M. Cowling. 2014. "Vegetation Types of the Greater Cape Floristic Region." in Fynbos: Ecology, Evolution, and Conservation of a Megadiverse Region. Allsopp et al. (Eds)
 
 Mucina, Ladislav, Michael C. Rutherford, and Others. 2006. The Vegetation of South Africa, Lesotho and Swaziland. South African National Biodiversity Institute. https://www.cabdirect.org/cabdirect/abstract/20073221934.
 
-Petchey, Owen L., and Kevin J. Gaston. 2002. “Functional Diversity (FD), Species Richness and Community Composition.” Ecology Letters 5 (3): 402–11. https://doi.org/10.1046/j.1461-0248.2002.00339.x.
+Petchey, Owen L., and Kevin J. Gaston. 2002. "Functional Diversity (FD), Species Richness and Community Composition." Ecology Letters 5 (3): 402--11. https://doi.org/10.1046/j.1461-0248.2002.00339.x.
 
-Plas, Fons van der. 2019. “Biodiversity and Ecosystem Functioning in Naturally Assembled Communities.” Biological Reviews of the Cambridge Philosophical Society 94 (4): 1220–45. https://doi.org/10.1111/brv.12499.
+Plas, Fons van der. 2019. "Biodiversity and Ecosystem Functioning in Naturally Assembled Communities." Biological Reviews of the Cambridge Philosophical Society 94 (4): 1220--45. https://doi.org/10.1111/brv.12499.
 
-Slingsby, Jasper A., Glenn R. Moncrieff, and Adam M. Wilson. 2020. “Near-Real Time Forecasting and Change Detection for an Open Ecosystem with Complex Natural Dynamics.” ISPRS Journal of Photogrammetry and Remote Sensing.  166 (August): 15–25. https://doi.org/10.1016/j.isprsjprs.2020.05.017.
+Slingsby, Jasper A., Glenn R. Moncrieff, and Adam M. Wilson. 2020. "Near-Real Time Forecasting and Change Detection for an Open Ecosystem with Complex Natural Dynamics." ISPRS Journal of Photogrammetry and Remote Sensing. 166 (August): 15--25. https://doi.org/10.1016/j.isprsjprs.2020.05.017.
 
-Wilson, Adam M., Andrew M. Latimer, and John A. Silander Jr. 2015. “Climatic Controls on Ecosystem Resilience: Postfire Regeneration in the Cape Floristic Region of South Africa.” Proceedings of the National Academy of Sciences of the United States of America 112 (29): 9058–63. https://doi.org/10.1073/pnas.1416710112.
+Wilson, Adam M., Andrew M. Latimer, and John A. Silander Jr. 2015. "Climatic Controls on Ecosystem Resilience: Postfire Regeneration in the Cape Floristic Region of South Africa." Proceedings of the National Academy of Sciences of the United States of America 112 (29): 9058--63. https://doi.org/10.1073/pnas.1416710112.

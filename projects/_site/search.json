@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Projects",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nbiogeography\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nremote sensing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nremote sensing\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/emma/index.html",
@@ -12,5 +12,54 @@
     "title": "EMMA",
     "section": "",
     "text": "For more information, see the project website."
+  },
+  {
+    "objectID": "current/ecoforecasting/index.html",
+    "href": "current/ecoforecasting/index.html",
+    "title": "Ecoforecasting Africa",
+    "section": "",
+    "text": "Ecoforecasting Africa is the seed of an African chapter of the Ecological Forecasting Initiative. For more information on ecological forecasting, watch the short video below or read Dietze et al. 2018.\nAt this stage we are only gathering information of those interested in participating in or contributing to the initiative. If that includes you, please fill in this Google Form. This information will only be used for Ecoforecasting Africa planning activities and will not be shared with others or used for research purposes. Please note that form responses are not monitored, so if you have any queries please contact Jasper Slingsby directly.\nNote that Ecoforecasting Africa may adopt a different model to other EFI chapters due to differences in the needs and resources of the region (see Slingsby et al. 2023). What model we adopt for will be up for discussion. Also note that while we (Jasper Slingsby and Glenn Moncrieff) are kickstarting the initiative, we do not claim ownership and invite broad participation, diverse perspectives and suggestions for the best leadership model.\nThe following 4 minute video will give you a glossy overview of what ecological is about:"
+  },
+  {
+    "objectID": "past/rretool/index.html",
+    "href": "past/rretool/index.html",
+    "title": "RReTool",
+    "section": "",
+    "text": "The NRF-funded RReTool project focused on developing Rapid and Repeatable tools for monitoring and mitigating global change impacts on natural resources in South Africa, predominantly using remote sensing.\nRecent advances in the availability of regularly updated, high resolution remotely-sensed data, combined with advances in computation have made it possible to monitor ecosystems at higher spatial and temporal resolution than previously possible. Much of the focus in research and the development of tools to make use of this new data has been in the forested ecosystems of the northern hemisphere and the tropics. More than 90% of South Africa’s terrestrial surface is covered by “open” non-forest ecosystems such as shrublands, woodlands and grasslands. Detecting abnormal change in these ecosystems is highly challenging, because the state of the vegetation varies dramatically due to natural disturbances, long-term trends or cyclical functions, such as those relating to fire, postfire recovery, and seasonality. Overcoming these challenges is critical, because open ecosystems dominate much of the globe, making up >40% of the global total ecosystem organic carbon and harbour a substantial proportion of the world’s biological diversity.\nWith the National Research Foundation funded RReTool project, we are developing tools to make full use of the potential of satellite data for monitoring the non-forests ecosystems that dominate South Africa, and to deepen our understanding of how they vary in space and time. Using this information we are improving our ability to manage and mitigate the impacts of threats such as invasive alien plants, land cover transformation and climatic change. All of this is being achieved using only freely available open source software, and publicly available data, and reproducible research principles. The information and tools generated will therefore be available at no expense to researchers and managers to use and modify as needed, allowing outputs to be regularly updated and/or improved. This will ensure that environmental resource management is informed by up-to-date accurate data."
+  },
+  {
+    "objectID": "index.html#past-projects",
+    "href": "index.html#past-projects",
+    "title": "Projects",
+    "section": "Past projects",
+    "text": "Past projects\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRReTool\n\n\n\nremote sensing\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "current/emsafrica/index.html",
+    "href": "current/emsafrica/index.html",
+    "title": "EMSAfrica",
+    "section": "",
+    "text": "EMSAfrica is a collaborative research project between South Africa and Germany, bringing together different scientific disciplines and approaches to understand the impacts of land-use and climate change on the structure and function of southern African terrestrial ecosystems. The data and products are used to develop and test models and produce information relevant to ecosystem management in the region.\nFor more information see the project website."
+  },
+  {
+    "objectID": "current/bioscape/index.html",
+    "href": "current/bioscape/index.html",
+    "title": "NASA BioSCape Campaign",
+    "section": "",
+    "text": "The Biodiversity Survey of the Cape (BioSCape) is a NASA field campaign focused on the Greater Cape Floristic Region of South Africa. It is the first ever NASA campaign focused on remote sensing of biodiversity.\nFor more information, see the campaign website."
+  },
+  {
+    "objectID": "current/emma/index.html",
+    "href": "current/emma/index.html",
+    "title": "EMMA",
+    "section": "",
+    "text": "The Ecosystem Monitoring for Management Application (EMMA) is a NASA funded project to develop a near-real-time satellite change detection system for the Fynbos Biome using an ecological forecasting approach. It is based on the proof of concept published in Slingsby et al. 2020.\nFor more information, see the project website."
   }
 ]

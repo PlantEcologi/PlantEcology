@@ -20,8 +20,8 @@ website:
     right:
       - href: about.qmd
         text: About
-      - href: news/index.qmd
-        text: News
+#      - href: news/index.qmd
+#        text: News
       - href: projects/index.qmd
         text: Projects
       - href: teaching/index.qmd
