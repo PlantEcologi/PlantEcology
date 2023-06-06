@@ -18,6 +18,6 @@ Note that Ecoforecast Africa may adopt a different model to other EFI chapters d
 
 The following 4 minute video will give you a glossy overview of what ecological is about:
 
-<iframe width="584" height="330" src="https://www.youtube.com/embed/Lgi_e7N-C8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="56.5%" src="https://www.youtube.com/embed/Lgi_e7N-C8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
