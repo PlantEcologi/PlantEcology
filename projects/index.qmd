@@ -20,10 +20,10 @@ page-layout: full
 
 ## Current projects
 
-:::{#current}
+::: {#current}
 :::
 
 ## Past projects
 
-:::{#past}
+::: {#past}
 :::

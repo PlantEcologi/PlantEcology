@@ -2,7 +2,7 @@
 title: "EMSAfrica"
 author: ""
 date: ""
-categories: [biogeography, forecasting]
+categories: [biogeography, global change, forecasting]
 image: "EMSAfrica.png"
 ---
 

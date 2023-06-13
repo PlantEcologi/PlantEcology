@@ -2,7 +2,7 @@
 title: "EMMA"
 author: ""
 date: ""
-categories: [remote sensing, forecasting]
+categories: [remote sensing, forecasting, global change]
 image: "emma.png"
 ---
 
