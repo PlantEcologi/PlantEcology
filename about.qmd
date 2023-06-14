@@ -1,8 +1,9 @@
 ---
 title: ""
 about:
-  template: jolla
   image: assets/images/lab_2022_bainskloof_mtns_crop.jpg
+  template: jolla
+  image-width: 25em
 ---
 
 ### Welcome to the Plant Ecology Lab at the University of Cape Town!
