@@ -32,7 +32,15 @@ PhD candidate exploring the relationships between culm (\~leaf) and canopy refle
 
 ##### Hana Petersen
 
-PhD candidate exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems.
+PhD candidate exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems. Co-supervised by Glenn Moncrieff.
+
+<br>
+
+<img src="assets/images/aine.jpg" alt="Áine" class="rounded-circle" width="30%"/>
+
+##### Áine Nicholson
+
+Áine is a visiting PhD candidate from Charles Darwin University working on [ignition catchments](http://dx.doi.org/10.1111/gcb.14861) and vegetation change in the Western Ghats. She's supervised by Lindsay Hutley, Jayashree Ratnam and Mahesh Sankaran, and collaborating with Glenn Moncrieff and I.
 
 <br>
 
@@ -43,6 +51,26 @@ PhD candidate exploring the mechanisms by which climate change impacts plant com
 Postdoc (University at Buffalo and University of Cape Town)
 
 Anabelle is the Science Team Manager for the [NASA BioSCape Campaign](www.bioscape.io)
+
+<br>
+
+<img src="assets/images/cherie.jpg" alt="Cherie" class="rounded-circle" width="30%"/>
+
+##### Cherie Forbes
+
+Postdoc (University at Buffalo and University of Cape Town)
+
+Cherie is the Applications Coordinator for the [NASA BioSCape Campaign](www.bioscape.io)
+
+<br>
+
+<img src="assets/images/geethen.jpg" alt="Geethen" class="rounded-circle" width="30%"/>
+
+##### Geethen Singh
+
+Postdoc (University of Cape Town, Stellenbosch University & SAEON) 
+
+Geethen is mapping invasive species, fire scars and other related phenomena using satellite data and machine learning.
 
 <br>
 
