@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Plant Ecology UCT"
+  google-analytics: "G-27D8KSBZ2E"
   favicon: assets/icon.png
   twitter-card: true
   open-graph: true
@@ -34,8 +35,6 @@ website:
         icon: "twitter"
       - href: https://scholar.google.com/citations?user=ZjBauSkAAAAJ&hl=en
         icon: "mortarboard-fill"
-      - icon: rss
-        href: index.xml
 
 format:
   html:

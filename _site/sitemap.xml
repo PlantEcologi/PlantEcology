@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://plantecolo.gy/projects/past/rretool/index.html</loc>
-    <lastmod>2023-02-27T08:38:14.963Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/projects/index.html</loc>
-    <lastmod>2023-08-24T06:19:59.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/projects/about.html</loc>
-    <lastmod>2023-02-27T08:38:15.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/projects/current/emsafrica/index.html</loc>
-    <lastmod>2023-06-14T13:44:43.382Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/projects/current/bioscape/index.html</loc>
-    <lastmod>2023-06-05T18:06:45.897Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/projects/current/emma/index.html</loc>
-    <lastmod>2023-06-14T13:44:43.881Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/lab/index.html</loc>
-    <lastmod>2023-06-05T18:17:58.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/lab/about.html</loc>
-    <lastmod>2023-02-27T08:38:17.799Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/index.html</loc>
-    <lastmod>2023-08-24T06:19:59.761Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/about.html</loc>
-    <lastmod>2023-08-24T06:20:06.229Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/news/posts/post-with-code/index.html</loc>
-    <lastmod>2023-02-27T08:38:18.556Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/news/posts/welcome/index.html</loc>
-    <lastmod>2023-02-27T08:38:18.794Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/news/index.html</loc>
-    <lastmod>2023-02-27T08:38:19.060Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/news/about.html</loc>
-    <lastmod>2023-02-27T08:38:19.311Z</lastmod>
-  </url>
-  <url>
-    <loc>https://plantecolo.gy/teaching/bio3018f/index.html</loc>
-    <lastmod>2023-06-01T13:09:50.328Z</lastmod>
+    <loc>https://plantecolo.gy/teaching/about.html</loc>
+    <lastmod>2024-11-05T12:46:33.722Z</lastmod>
   </url>
   <url>
     <loc>https://plantecolo.gy/teaching/bio3018f/about.html</loc>
-    <lastmod>2023-02-27T08:38:25.393Z</lastmod>
+    <lastmod>2024-11-05T12:46:32.694Z</lastmod>
   </url>
   <url>
-    <loc>https://plantecolo.gy/teaching/index.html</loc>
-    <lastmod>2023-08-24T06:19:58.812Z</lastmod>
+    <loc>https://plantecolo.gy/news/about.html</loc>
+    <lastmod>2024-11-05T12:46:26.214Z</lastmod>
   </url>
   <url>
-    <loc>https://plantecolo.gy/teaching/about.html</loc>
-    <lastmod>2023-02-27T08:38:26.395Z</lastmod>
+    <loc>https://plantecolo.gy/news/posts/welcome/index.html</loc>
+    <lastmod>2024-11-05T12:46:25.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/about.html</loc>
+    <lastmod>2024-11-05T12:46:25.256Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/lab/about.html</loc>
+    <lastmod>2024-11-05T12:46:24.783Z</lastmod>
   </url>
   <url>
     <loc>https://plantecolo.gy/projects/current/ecoforecasting/index.html</loc>
-    <lastmod>2023-06-13T14:51:14.404Z</lastmod>
+    <lastmod>2024-11-05T12:46:22.924Z</lastmod>
   </url>
   <url>
     <loc>https://plantecolo.gy/projects/current/medecin/index.html</loc>
-    <lastmod>2023-08-24T06:19:58.574Z</lastmod>
+    <lastmod>2024-11-05T12:46:22.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/projects/current/emsafrica/index.html</loc>
+    <lastmod>2024-11-05T12:46:21.915Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/projects/index.html</loc>
+    <lastmod>2024-11-05T12:46:21.466Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/projects/past/rretool/index.html</loc>
+    <lastmod>2024-11-05T12:46:20.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/projects/about.html</loc>
+    <lastmod>2024-11-05T12:46:21.700Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/projects/current/bioscape/index.html</loc>
+    <lastmod>2024-11-05T12:46:22.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/projects/current/emma/index.html</loc>
+    <lastmod>2024-11-05T12:46:22.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/lab/index.html</loc>
+    <lastmod>2024-11-05T12:46:23.838Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/index.html</loc>
+    <lastmod>2024-11-05T12:46:25.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/news/posts/post-with-code/index.html</loc>
+    <lastmod>2024-11-05T12:46:25.473Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/news/index.html</loc>
+    <lastmod>2024-11-05T12:46:26.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/teaching/bio3018f/index.html</loc>
+    <lastmod>2024-11-05T12:46:31.950Z</lastmod>
+  </url>
+  <url>
+    <loc>https://plantecolo.gy/teaching/index.html</loc>
+    <lastmod>2024-11-05T12:46:32.961Z</lastmod>
   </url>
 </urlset>

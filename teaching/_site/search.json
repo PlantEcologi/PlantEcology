@@ -11,14 +11,14 @@
     "href": "index.html#mission",
     "title": "teaching",
     "section": "Mission",
-    "text": "Mission\nWe aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the “facts” presented in whatever walk of life they choose.\nWe hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing “the pleasure of finding things out” sensu Richard Feynman."
+    "text": "Mission\nWe aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the “facts” presented in whatever walk of life they choose.\nWe hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing the pleasure of finding things out.\nOur core value is to learn about and grow appreciation for diversity. In biology, people, culture, thought and practice. If you don’t feel we’re living up to this, call us out! We are not perfect, but we are open to brave conversations and constantly seek enlightenment!"
   },
   {
     "objectID": "index.html#materials",
     "href": "index.html#materials",
     "title": "teaching",
     "section": "Materials",
-    "text": "Materials\nThis section points to our teaching resources, but they’re mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a CC BY 4.0 license, so feel free to reuse unless otherwise indicated. If you’re not sure, get in touch.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reproducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)\nConservation: Genes, Population & Biodiversity (BIO3014S): Space and Conservation"
+    "text": "Materials\nThis section points to our teaching resources, but they’re mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a CC BY 4.0 license, so feel free to reuse unless otherwise indicated. If you’re not sure, get in touch.\n\nHonours (4th year) modules (BIO4000W/BIO4001W)\n\nIntroduction to data management and reproducible research (bookdown site)\nIntroduction to GIS and handling spatial data with R (bookdown site)\n\n\n\nThird-year courses\n\nEcology & Evolution (BIO3018F): Measuring Biodiversity\nQuantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)\nConservation: Genes, Population & Biodiversity (BIO3014S): Space and Conservation\n\n\n\nSecond-year courses\n\nPrinciples of Ecology & Evolution (BIO2014F): Niche Theory"
   },
   {
     "objectID": "bio3018f/index.html#mission",

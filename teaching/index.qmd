@@ -10,7 +10,11 @@ title: ""
 
 We aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the "facts" presented in whatever walk of life they choose.
 
-We hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing "the pleasure of finding things out" *sensu* Richard Feynman.
+We hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing the pleasure of finding things out.
+
+Our core value is to learn about and grow appreciation for diversity. In biology, people, culture, thought and practice. If you don't feel we're living up to this, call us out! We are not perfect, but we are open to brave conversations and constantly seek enlightenment!
+
+You can find out more about our approach to graduate training in our [lab manual](/lab/#lab-manual)
 
 ## Materials
 
@@ -26,3 +30,7 @@ This section points to our teaching resources, but they're mostly hosted elsewhe
 -   [Ecology & Evolution (BIO3018F): Measuring Biodiversity](/teaching/bio3018f/)
 -   [Quantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)](https://www.ecologi.st/BIO3019S_Ecoforecasting/)
 -   [Conservation: Genes, Population & Biodiversity (BIO3014S): Space and Conservation](https://www.ecologi.st/BIO3014S/)
+
+#### Second-year courses
+
+-   [Principles of Ecology & Evolution (BIO2014F): Niche Theory](https://plantecologi.github.io/BIO2014F/)
