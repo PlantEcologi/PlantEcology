@@ -1,7 +1,7 @@
 ---
 title: ""
 about:
-  image: assets/images/lab_2022_bainskloof_mtns_crop.jpg
+  image: assets/images/lab_2024_bettys.jpg
   template: jolla
   image-width: 25em
 ---
@@ -20,6 +20,22 @@ MSc candidate mapping hydrological refugia in the Cape Floristic Region. Co-supe
 
 <br>
 
+<img src="assets/images/amour.jpg" alt="Amour McCarthy" class="rounded-circle" width="30%"/>
+
+##### Amour McCarthy
+
+MSc candidate exploring the need for local knowledge in developing global data products to inform environmental management.
+
+<br>
+
+<img src="assets/images/Ash_Smith_picture.jpg" alt="Ashleigh Smith" class="rounded-circle" width="30%"/>
+
+##### Ashleigh Smith
+
+MSc candidate (starting 2025) working on ecological condition mapping using the AVIRIS-NG imaging spectroscopy data collected during the [NASA BioSCape Campaign](www.bioscape.io)
+
+<br>
+
 <img src="assets/images/chenge2.jpeg" alt="Chenge" class="rounded-circle" width="30%"/>
 
 ##### Simcelile Chenge
@@ -33,6 +49,14 @@ PhD candidate exploring the relationships between culm (\~leaf) and canopy refle
 ##### Hana Petersen
 
 PhD candidate exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems. Co-supervised by Glenn Moncrieff.
+
+<br>
+
+<img src="assets/images/Sam.jpg" alt="Samukelisiwe Msweli" class="rounded-circle" width="30%"/>
+
+##### Samukelisiwe Msweli
+
+PhD candidate mapping landscape flammability in the Cape Floristic Region by linking flammability metrics from experimental burns with plant traits and trait maps from imaging spectroscopy. 
 
 <br>
 
