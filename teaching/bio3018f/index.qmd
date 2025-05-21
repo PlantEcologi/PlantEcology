@@ -18,13 +18,17 @@ This year's lectures can also be viewed as HTML slides below:
 4. [Functional and Phylogenetic Diversity](https://www.ecologi.st/BIO3018F/4_FunctionalAndPhylogenetic)
 5. [Traits, Trade-offs and Phylogeny](https://www.ecologi.st/BIO3018F/5_TraitEvolution)
 6. [The Assembly of Diversity: Local Processes](https://www.ecologi.st/BIO3018F/6_CommunityAssembly)
-7. [The Assembly of Diversity Regional Processes](https://www.ecologi.st/BIO3018F/7_RegionalAssembly)
+7. [The Assembly of Diversity: Regional Processes](https://www.ecologi.st/BIO3018F/7_RegionalAssembly)
 8. [Biodiversity and Ecosystem Function](https://www.ecologi.st/BIO3018F/8_BiodiversityEF)
 9. [Remote Sensing of Biodiversity](https://www.ecologi.st/BIO3018F/9_RemoteSensingBio)
 10. [Feedbacks in Ecology](https://www.ecologi.st/BIO3018F/10_Feedbacks)
 
+
+Other:
+
 * [Independent project brief](https://www.ecologi.st/BIO3018F/IndependentProjects)
 * [Intro to power analysis](https://www.ecologi.st/BIO3018F/11_PowerAnalysis)
+* [Exam tutorial](https://www.ecologi.st/BIO3018F/12_ExamTutorial)
 
 ## Practicals by year
 
