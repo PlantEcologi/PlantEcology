@@ -33,4 +33,4 @@ This section points to our teaching resources, but they're mostly hosted elsewhe
 
 #### Second-year courses
 
--   [Principles of Ecology & Evolution (BIO2014F): Niche Theory](https://plantecologi.github.io/BIO2014F/)
+-   [Principles of Ecology & Evolution (BIO2014F): Niche Theory](/BIO2014F/)
