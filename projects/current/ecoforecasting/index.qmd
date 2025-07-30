@@ -6,33 +6,25 @@ categories: [forecasting, global change]
 image: "africa.png"
 ---
 
-*Call for expressions of interest* - [please use this form](https://forms.gle/8TFEigaaWoJPGXPe8){target="_blank"}
-
 ![](ecoforecast_elephant.png){width="100%"}</left>
 
-Ecoforecast Africa is the seed of an African chapter of the [Ecological Forecasting Initiative](https://ecoforecast.org/){target="_blank"} (see other chapters [here](https://ecoforecast.org/efi-chapters/){target="_blank"}. For more information on ecological forecasting, watch the short video below or read [Dietze et al. 2018 *PNAS*](https://doi.org/10.1073/pnas.1710231115){target="_blank"}.
+[Ecoforecast Africa's](https://ecoforecast.africa/){target="_blank"} mission is to build a community of practice around near-term iterative ecological forecasting in Africa, aiming at improving our fundamental understanding of African ecosystems and translating that knowledge into tools to assist their management and conservation.
 
-At this stage we are only gathering information of those interested in participating in, contributing to, or collaborating with the initiative. If that includes you, please fill in [this Google Form](https://forms.gle/8TFEigaaWoJPGXPe8){target="_blank"}. We are open to participants who are not from Africa, especially if you're interested in giving talks, running training workshops or co-producing forecasting projects.
+<br>
 
-This information will only be used for Ecoforecast Africa planning activities and will not be shared with others or used for research purposes. Please note that form responses are not monitored, so if you have any queries please contact Jasper Slingsby directly (see [the Google Form](https://forms.gle/8TFEigaaWoJPGXPe8){target="_blank"}).
+It is the African chapter of the [Ecological Forecasting Initiative](https://ecoforecast.org/){target="_blank"}. For more information on ecological forecasting, watch the short video below or read [Dietze et al. 2018 *PNAS*](https://doi.org/10.1073/pnas.1710231115){target="_blank"}.
 
-Note that Ecoforecast Africa may adopt a different model to other EFI chapters due to differences in the needs and resources of the region (see [Slingsby et al. 2023 *MEE*](https://doi.org/10.1111/2041-210x.14046){target="_blank"}). What model we adopt will be up for discussion. Also note that while we are kickstarting the initiative, we do not claim ownership and invite broad participation, diverse perspectives and suggestions for the best leadership model.
+<br>
 
-Thanks!
-
-Jasper Slingsby^1,2,3^ and Glenn Moncrieff^2,3^
-
-^1^Biological Sciences, University of Cape Town
-
-^2^Fynbos Node, South African Environmental Observation Network (SAEON)
-
-^3^Centre for Statistics in Ecology, Environment and Conservation, University of Cape Town
+Pop over to the [Ecoforecast Africa website](https://ecoforecast.africa/){target="_blank"} for more info on activities and/or to join the initiative.
 
 <br>
 
 The following 4 minute video will give you a glossy overview of what ecological forecasting is about:
 
-<iframe width="100%" height="56.5%" src="https://www.youtube.com/embed/Lgi_e7N-C8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="56.5%" src="https://www.youtube.com/embed/Lgi_e7N-C8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
 
 <br>
 
