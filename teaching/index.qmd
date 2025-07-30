@@ -28,7 +28,7 @@ This section points to our teaching resources, but they're mostly hosted elsewhe
 #### Third-year courses
 
 -   [Ecology & Evolution (BIO3018F): Measuring Biodiversity](/teaching/bio3018f/)
--   [Quantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)](https://www.ecologi.st/BIO3019S_Ecoforecasting/)
+-   [Quantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)](/BIO3019S_Ecoforecasting/)
 -   [Conservation: Genes, Population & Biodiversity (BIO3014S): Space and Conservation](https://www.ecologi.st/BIO3014S/)
 
 #### Second-year courses
