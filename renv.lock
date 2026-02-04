@@ -124,6 +124,14 @@
         "Rcpp"
       ]
     },
+    "S7": {
+      "Package": "S7",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9da85950949574264f92f91f0e23de26",
+      "Requirements": []
+    },
     "SparseM": {
       "Package": "SparseM",
       "Version": "1.84-2",
@@ -417,10 +425,10 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "6.4.0",
+      "Version": "7.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a331a41f5a999c2b59fdff9f48ac579f",
+      "Hash": "aa27e963d3deccf4bade44d06b976977",
       "Requirements": []
     },
     "data.table": {
@@ -458,10 +466,10 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.37",
+      "Version": "0.6.39",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "33698c4b3127fc9f506654607fb73676",
+      "Hash": "d18028e978a88b2b16ef8d400cb49adf",
       "Requirements": []
     },
     "doBy": {
@@ -630,21 +638,18 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "3.5.2",
+      "Version": "4.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7ad64861e028a777d7d67ff83231b548",
+      "Hash": "1bfa14b2a1668b3569dafb0478b2636b",
       "Requirements": [
-        "MASS",
+        "S7",
         "cli",
-        "glue",
         "gtable",
         "isoband",
         "lifecycle",
-        "mgcv",
         "rlang",
         "scales",
-        "tibble",
         "vctrs",
         "withr"
       ]
@@ -749,11 +754,12 @@
     },
     "hms": {
       "Package": "hms",
-      "Version": "1.1.3",
+      "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b59377caa7ed00fa41808342002138f9",
+      "Hash": "2799ac720626cec589478b191e48b88b",
       "Requirements": [
+        "cli",
         "lifecycle",
         "pkgconfig",
         "rlang",
@@ -861,10 +867,10 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.1",
+      "Version": "1.4.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "501744395cac0bab0fbcfab9375ae92c",
+      "Hash": "a729883bff94b606cd4f0445aeed95b5",
       "Requirements": [
         "Rcpp",
         "rlang"
@@ -971,10 +977,10 @@
     },
     "magrittr": {
       "Package": "magrittr",
-      "Version": "2.0.3",
+      "Version": "2.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7ce2733a9826b3aeb1775d56fd305472",
+      "Hash": "8b3b213aa0c54a0dec254288ccb545d1",
       "Requirements": []
     },
     "memoise": {
@@ -1078,10 +1084,10 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.3.3",
+      "Version": "2.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "05ce1ed077e8c97fbb3ec1cb078f1159",
+      "Hash": "d5811dade9cd3a34a9038a45f1a59bae",
       "Requirements": [
         "askpass"
       ]
@@ -1124,10 +1130,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.11.0",
+      "Version": "1.11.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "10344e4bdafc6725ed83c3d6b756f4d9",
+      "Hash": "1395e64f2689ffd503657778e810cee2",
       "Requirements": [
         "cli",
         "glue",
@@ -1211,10 +1217,10 @@
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "1.1.0",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9240cfb47489133f809918a0d3cc60cb",
+      "Hash": "5150f0e38b8150315ac853acade2740e",
       "Requirements": [
         "cli",
         "lifecycle",
@@ -1287,10 +1293,10 @@
     },
     "readr": {
       "Package": "readr",
-      "Version": "2.1.5",
+      "Version": "2.1.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9de96463d2117f6ac49980577939dfb3",
+      "Hash": "141ebcec1bf55707751c7956a34d93db",
       "Requirements": [
         "R6",
         "cli",
@@ -1473,10 +1479,10 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-21",
+      "Version": "1.0-22",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "14a8dae2a678fa953907893a9df561c0",
+      "Hash": "4d371eea6c5242745ddca3fdb2cef197",
       "Requirements": [
         "DBI",
         "Rcpp",
@@ -1506,10 +1512,10 @@
     },
     "stringr": {
       "Package": "stringr",
-      "Version": "1.5.1",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "960e2ae9e09656611e0b8214ad543207",
+      "Hash": "d47392652eedc68bf916657347ff2526",
       "Requirements": [
         "cli",
         "glue",
@@ -1552,10 +1558,10 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.8-50",
+      "Version": "1.8-80",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "057783c6c0f092168a8fef1efbb3adb8",
+      "Hash": "af6ece019beb5940e6453a5efe12d86d",
       "Requirements": [
         "Rcpp"
       ]
@@ -1696,10 +1702,10 @@
     },
     "units": {
       "Package": "units",
-      "Version": "0.8-7",
+      "Version": "1.0-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5d0b024902d5da97a2b64f002e92a869",
+      "Hash": "3797c73fd3bde8b1601a4e1bf53557ac",
       "Requirements": [
         "Rcpp"
       ]
@@ -1757,10 +1763,10 @@
     },
     "vroom": {
       "Package": "vroom",
-      "Version": "1.6.5",
+      "Version": "1.6.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "390f9315bc0025be03012054103d227c",
+      "Hash": "a9d1c6bf67f15a0d07be840caeaab49a",
       "Requirements": [
         "bit64",
         "cli",
@@ -1804,10 +1810,10 @@
     },
     "xml2": {
       "Package": "xml2",
-      "Version": "1.3.8",
+      "Version": "1.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f5130b2f3d461964bac93cc618013231",
+      "Hash": "6f2f33a55f861826edaf3db617088e55",
       "Requirements": [
         "cli",
         "rlang"
