@@ -10,13 +10,31 @@ about:
 
 Our mission is to improve our fundamental understanding of African ecosystems and translate that knowledge into tools to assist the management and conservation of their biodiversity and contributions to people.
 
-## Lab members
+<br>
 
-<img src="assets/images/kagiso.png" alt="Kagiso" class="rounded-circle" width="30%"/>
+## Current Lab Members
 
-##### Kagiso Nhlapo
+<img src="assets/images/sarah.jpeg" alt="Sarah Frances Visser" class="rounded-circle" width="30%"/>
 
-MSc candidate mapping hydrological refugia in the Cape Floristic Region. Co-supervised by Tony Verboom.
+##### Sarah Frances Visser 
+
+MSc candidate studying the demography of invasive pines within the Western Cape.
+
+<br>
+
+<img src="assets/images/tim.JPEG" alt="Tim Muthama" class="rounded-circle" width="30%"/>
+
+##### Tim Muthama
+
+MSc candidate mapping and monitoring plant structural diversity using active remote sensing.
+
+<br>
+
+<img src="assets/images/nic2.jpg" alt="Nicholas Limbert" class="rounded-circle" width="30%"/>
+
+##### Nicholas Limbert
+
+MSc candidate exploring efficient fire spread modelling to simulate spatial burn scars and estimate burn probabilities.
 
 <br>
 
@@ -32,7 +50,7 @@ MSc candidate exploring the need for local knowledge in developing global data p
 
 ##### Ashleigh Smith
 
-MSc candidate (starting 2025) working on ecological condition mapping using the AVIRIS-NG imaging spectroscopy data collected during the [NASA BioSCape Campaign](www.bioscape.io)
+MSc candidate working on ecological condition mapping using the AVIRIS-NG imaging spectroscopy data collected during the [NASA BioSCape Campaign](www.bioscape.io).
 
 <br>
 
@@ -48,7 +66,7 @@ PhD candidate exploring the relationships between culm (\~leaf) and canopy refle
 
 ##### Hana Petersen
 
-PhD candidate exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems. Co-supervised by Glenn Moncrieff.
+PhD candidate exploring the mechanisms by which climate change impacts plant community diversity across Mediterranean Climate Ecosystems. Co-supervised by Ryan Blanchard (SAEON).
 
 <br>
 
@@ -56,7 +74,7 @@ PhD candidate exploring the mechanisms by which climate change impacts plant com
 
 ##### Samukelisiwe Msweli
 
-PhD candidate mapping landscape flammability in the Cape Floristic Region by linking flammability metrics from experimental burns with plant traits and trait maps from imaging spectroscopy. 
+PhD candidate mapping landscape flammability in the Cape Floristic Region by linking plant level flammability metrics from experimental burns with plant traits and trait maps from imaging spectroscopy. 
 
 <br>
 
@@ -78,13 +96,33 @@ Anabelle is the Science Team Manager for the [NASA BioSCape Campaign](www.biosca
 
 <br>
 
+<img src="assets/images/jasper.jpg" alt="Jasper" class="rounded-circle" width="30%"/>
+
+##### Jasper Slingsby
+
+Principal Investigator
+
+Following my PhD exploring the interface between ecology and evolution in the Cape Floristic Region, I worked at the [Fynbos Node](https://fynbos.saeon.ac.za/) of the [South African Environmental Observation Network](https://www.saeon.ac.za/) for almost a decade, focusing on global change and long term ecological research in African ecosystems. My current research blends the two, following the ethos that understanding the origins of diversity is essential if we are to understand how ecosystems function, how they are being altered by global change, and how best to manage them for desirable outcomes.
+
+<br>
+
+## Former Lab Members (incomplete list)
+
+<img src="assets/images/kagiso.png" alt="Kagiso Nhlapo" class="rounded-circle" width="30%"/>
+
+##### Kagiso Nhlapo
+
+MSc candidate mapping hydrological refugia in the Cape Floristic Region. Co-supervised by Tony Verboom.
+
+<br>
+
 <img src="assets/images/cherie.jpg" alt="Cherie" class="rounded-circle" width="30%"/>
 
 ##### Cherie Forbes
 
 Postdoc (University at Buffalo and University of Cape Town)
 
-Cherie is the Applications Coordinator for the [NASA BioSCape Campaign](www.bioscape.io)
+Cherie was the Applications Coordinator for the [NASA BioSCape Campaign](www.bioscape.io)
 
 <br>
 
@@ -94,14 +132,7 @@ Cherie is the Applications Coordinator for the [NASA BioSCape Campaign](www.bios
 
 Postdoc (University of Cape Town, Stellenbosch University & SAEON) 
 
-Geethen is mapping invasive species, fire scars and other related phenomena using satellite data and machine learning.
+Geethen was mapping invasive species, fire scars and other related phenomena using satellite data and machine learning.
 
 <br>
 
-<img src="assets/images/jasper.jpg" alt="Jasper" class="rounded-circle" width="30%"/>
-
-##### Jasper Slingsby
-
-Principal Investigator
-
-Following my PhD exploring the interface between ecology and evolution in the Cape Floristic Region, I worked at the [Fynbos Node](https://fynbos.saeon.ac.za/) of the [South African Environmental Observation Network](https://www.saeon.ac.za/) for almost a decade, focusing on global change and long term ecological research in African ecosystems. My current research blends the two, following the ethos that understanding the origins of diversity is essential if we are to understand how ecosystems function, how they are being altered by global change, and how best to manage them for desirable outcomes.

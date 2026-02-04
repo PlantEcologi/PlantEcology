@@ -32,7 +32,8 @@ Other:
 
 ## Practicals by year
 
-* [2025](https://www.ecologi.st/BIO3018F/PracPresentation2025)
+* [2026](https://www.ecologi.st/BIO3018F/PracPresentation2026) and associated [R code](https://github.com/jslingsby/BIO3018F/blob/main/PracPresentation2026.Rmd) and [data](https://github.com/jslingsby/BIO3018F/tree/main/prac/2026)
+* [2025](https://www.ecologi.st/BIO3018F/PracPresentation2025)  and associated [R code](https://github.com/jslingsby/BIO3018F/blob/main/PracPresentation2025.Rmd) and [data](https://github.com/jslingsby/BIO3018F/tree/main/prac/2025)
 * [2023](/teaching/bio3018f/2023/)
 
 While the practicals have differed between years, you're welcome to go through the older ones for ideas and inspiration.
