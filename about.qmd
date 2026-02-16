@@ -14,6 +14,14 @@ Our mission is to improve our fundamental understanding of African ecosystems an
 
 ## Current Lab Members
 
+<img src="assets/images/savanna.jpg" alt="Savanna Ehlers" class="rounded-circle" width="30%"/>
+
+##### Savanna Ehlers 
+
+MSc candidate exploring the changes in fire in the Cape Floristic Region.
+
+<br>
+
 <img src="assets/images/sarah.jpeg" alt="Sarah Frances Visser" class="rounded-circle" width="30%"/>
 
 ##### Sarah Frances Visser 
