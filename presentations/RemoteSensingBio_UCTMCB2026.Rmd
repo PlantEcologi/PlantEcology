@@ -2,8 +2,9 @@
 title: "Remote Sensing of Biodiversity"
 subtitle: "From Landscapes to Genes"  
 author: 
-  - "Jasper Slingsby, MCB, UCT"
-date: '`r Sys.Date()`'
+  - "Jasper Slingsby"
+  - "& many others!"
+date: 'MCB, UCT, 18 March 2026'
 output:
   xaringan::moon_reader:
     css: ["xaringan-themer.css", "custom styles.css"]
@@ -105,12 +106,10 @@ knitr::include_graphics("images/cavenderbares2020.png")
 
 layout: false
 
-## BioSCape: Biodiversity Survey of the Cape
-
-```{r echo = F, fig.align = 'center', out.width = '90%'}
+```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/bioscape_new.png")
 ```
-.left[.footnote[...and the Cape is currently the epicentre of this endeavour - https://www.bioscape.io/]]
+.left[.footnote[...and the Cape is currently the epicentre of this endeavour | www.bioscape.io]]
 
 ---
 
@@ -126,17 +125,17 @@ layout: false
 - 3 planes
 - 6 instruments (2 x V-SWIR imaging spectrometers, hyperspectral thermal, multispectral (RGB + NIR) and 2 x LiDAR)
 - fundamental and applied science
-- mostly NASA funded
+- mostly NASA funded, + NRF, UNESCO, others
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_planes.png")
+knitr::include_graphics("images/bioscape_kumu_hex.png")
 ```
 
 ]
 
 .pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_kumu.png")
+```{r echo = F, fig.align = 'center', out.width = '95%'}
+knitr::include_graphics("images/bioscape_planes_portrait.png")
 ```
 .footnote[www.bioscape.io]
 ]
@@ -408,6 +407,28 @@ knitr::include_graphics("images/cedars_mapped.png")
 .footnote[Hadebe 2021 MSc thesis]
 ]
 
+---
+
+layout: false
+
+## Mapping cedars with Lidar?
+
+.pull-left[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/bioscape_cedars_driehoek_rgb.png")
+```
+
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/bioscape_cedars_driehoek_lvis.png")
+```
+
+]
+
+.footnote[De Rif cedar plantation above Driehoek | www.bioscape.io/data]
 ---
 
 class: center

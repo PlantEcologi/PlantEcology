@@ -1,0 +1,36 @@
+---
+title: ""
+---
+
+::: column-margin
+![](Hypodiscus%20aristatus.jpg)
+:::
+
+## Mission
+
+We aim to produce graduates who are ecologically and data literate, engaged, and have the wit to never stop questioning the "facts" presented in whatever walk of life they choose.
+
+We hope to cultivate a sense of environmental consciousness and biophilia in our students and others, ultimately sharing the pleasure of finding things out.
+
+Our core value is to learn about and grow appreciation for diversity. In biology, people, culture, thought and practice. If you don't feel we're living up to this, call us out! We are not perfect, but we are open to brave conversations and constantly seek enlightenment!
+
+You can find out more about our approach to graduate training in our [lab manual](/lab/#lab-manual)
+
+## Materials
+
+This section points to our teaching resources, but they're mostly hosted elsewhere. The plan is to embed them in this webpage in future. Most are provided under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license, so feel free to reuse unless otherwise indicated. If you're not sure, get in touch.
+
+#### Honours (4th year) modules (BIO4000W/BIO4001W)
+
+-   [Introduction to data management and reproducible research (bookdown site)](https://www.ecologi.st/data-management/)
+-   [Introduction to GIS and handling spatial data with R (bookdown site)](https://www.ecologi.st/spatial-r/)
+
+#### Third-year courses
+
+-   [Ecology & Evolution (BIO3018F): Measuring Biodiversity](/teaching/bio3018f/)
+-   [Quantitative Biology (BIO3019S): Ecological Forecasting (bookdown site)](/BIO3019S_Ecoforecasting/)
+-   [Conservation: Genes, Population & Biodiversity (BIO3014S): Space and Conservation](/BIO3014S/)
+
+#### Second-year courses
+
+-   [Principles of Ecology & Evolution (BIO2014F): Niche Theory](/BIO2014F/)
