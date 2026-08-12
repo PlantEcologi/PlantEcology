@@ -6,4 +6,4 @@ title: ""
 
 ### 2026
 
-[_Remote Sensing of Biodiversity: From Landscapes to Genes_, UCT, Molecular and Cell Biology, 18 March 2026](RemoteSensingBio_UCTMCB_2026.html)
+[_Remote Sensing of Biodiversity: From Landscapes to Genes_, UCT, Molecular and Cell Biology, 18 March 2026](/talks/RemoteSensingBio_UCTMCB2026.html)

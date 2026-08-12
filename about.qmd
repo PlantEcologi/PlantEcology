@@ -14,6 +14,14 @@ Our mission is to improve our fundamental understanding of African ecosystems an
 
 ## Current Lab Members
 
+<img src="assets/images/hannah_ch.jpg" alt="Hannah Chan-Henry" class="rounded-circle" width="30%"/>
+
+##### Hannah Chan-Henry
+
+BSc Honours candidate exploring forest dynamics and forecasting tree mortality in the Knysna Forest. Co-supervised by Res Altwegg.
+
+<br>
+
 <img src="assets/images/savanna.jpg" alt="Savanna Ehlers" class="rounded-circle" width="30%"/>
 
 ##### Savanna Ehlers 
@@ -62,11 +70,10 @@ MSc candidate working on ecological condition mapping using the AVIRIS-NG imagin
 
 <br>
 
-<img src="assets/images/chenge2.jpeg" alt="Chenge" class="rounded-circle" width="30%"/>
+<img src="assets/images/tallulah.jpeg" alt="Chenge" class="rounded-circle" width="30%"/>
 
-##### Simcelile Chenge
-
-PhD candidate exploring the relationships between culm (\~leaf) and canopy reflectance spectra and hydrological niche preferences in Restionaceae. Co-supervised by Adam West.
+##### Tallulah Rose Glasby 
+PhD candidate exploring the ecological niche of Milkwood trees (_Sideroxylon inerme_) and the potential relationship between genotypes and leaf and canopy spectral profiles. Co-supervised by Alastair Potts (NMU).
 
 <br>
 
@@ -94,13 +101,11 @@ PhD candidate mapping landscape flammability in the Cape Floristic Region by lin
 
 <br>
 
-<img src="assets/images/anabelle.jpeg" alt="Anabelle" class="rounded-circle" width="30%"/>
+<img src="assets/images/chenge2.jpeg" alt="Chenge" class="rounded-circle" width="30%"/>
 
-##### Anabelle Cardoso
+##### Simcelile Chenge
 
-Postdoc (University at Buffalo and University of Cape Town)
-
-Anabelle is the Science Team Manager for the [NASA BioSCape Campaign](www.bioscape.io)
+Postdoc exploring leaf and canopy reflectance spectra in Fynbos functional types.
 
 <br>
 
@@ -121,6 +126,17 @@ Following my PhD exploring the interface between ecology and evolution in the Ca
 ##### Kagiso Nhlapo
 
 MSc candidate mapping hydrological refugia in the Cape Floristic Region. Co-supervised by Tony Verboom.
+
+
+<br>
+
+<img src="assets/images/anabelle.jpeg" alt="Anabelle" class="rounded-circle" width="30%"/>
+
+##### Anabelle Cardoso
+
+Postdoc (University at Buffalo and University of Cape Town)
+
+Anabelle is the Science Team Manager for the [NASA BioSCape Campaign](www.bioscape.io)
 
 <br>
 

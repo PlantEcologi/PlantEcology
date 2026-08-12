@@ -6,6 +6,8 @@ title: "BIO3018F Ecology & Evolution"
 ![](Hypodiscus%20aristatus.jpg)
 :::
 
+[Watch a brief video intro to the course here.](https://drive.google.com/file/d/1qn6RgZNHUXkrvd6nay73AkFy0yaHwpQY/view?usp=sharing)
+
 ## Lectures
 
 PDFs of my lectures from this and previous years are available through the course [GitHub repository](https://github.com/jslingsby/BIO3018F/) in the folders labelled "lecture_pdfs_YEAR". 

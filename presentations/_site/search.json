@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "presentations",
+    "section": "",
+    "text": "Remote Sensing of Biodiversity: From Landscapes to Genes, UCT, Molecular and Cell Biology, 18 March 2026"
+  },
+  {
+    "objectID": "index.html#presentations",
+    "href": "index.html#presentations",
+    "title": "presentations",
+    "section": "",
+    "text": "Remote Sensing of Biodiversity: From Landscapes to Genes, UCT, Molecular and Cell Biology, 18 March 2026"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "",
+    "text": "class: center, middle"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#its-a-rapidly-growing-field",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#its-a-rapidly-growing-field",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "It’s a rapidly growing field",
+    "text": "It’s a rapidly growing field\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.footnote[Turner et al. 2003] ]\n.pull-right[\n\n\n\n\n\n\n\n\n\n.footnote[Cavender-Bares et al. 2020]\n]\n\nlayout: false\n\n\n\n\n\n\n\n\n\n.left[.footnote[…and the Cape is currently the epicentre of this endeavour | www.bioscape.io]]\n\nlayout: false"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#bioscape-biodiversity-survey-of-the-cape",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#bioscape-biodiversity-survey-of-the-cape",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "BioSCape: Biodiversity Survey of the Cape",
+    "text": "BioSCape: Biodiversity Survey of the Cape\n.pull-left[\n\n\\(&gt;\\) 150 scientists and conservation practitioners\n19 teams (mixed US, RSA, other)\nterrestrial and aquatic\n3 planes\n6 instruments (2 x V-SWIR imaging spectrometers, hyperspectral thermal, multispectral (RGB + NIR) and 2 x LiDAR)\nfundamental and applied science\nmostly NASA funded, + NRF, UNESCO, others\n\n\n\n\n\n\n\n\n\n\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n.footnote[www.bioscape.io] ]\n\nclass: center, middle\n\n\n\n\n\n\n\n\n\n\nclass: center, middle"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#but-how-do-we-actually-measure-biodiversity-with-remote-sensing",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#but-how-do-we-actually-measure-biodiversity-with-remote-sensing",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "But how do we actually measure biodiversity with remote sensing?",
+    "text": "But how do we actually measure biodiversity with remote sensing?\n\nlayout: false\n.pull-left[ ## There are many facets of biodiversity to measure!\n\nAn advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity…\n…at least from the scale of individuals up…\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n.footnote[Noss 1990, Conservation Biology] ]\n\nlayout: false\n.pull-left[ ## There are many facets of biodiversity to measure!\nAn advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity…\n\n\n\n\n\n\n\n\n\n.footnote[Skidmore et al. 2021]\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n…at least from the scale of individuals up…\n.footnote[https://geobon.org/]\n]\n\nbackground-image: url(“images/nasa_ems.jpeg”) background-size: contain\ntext-color: white\n.left-column[ ## .my-style-white[The Electromagnetic Spectrum]]"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#many-sensor-types",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#many-sensor-types",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Many sensor types!",
+    "text": "Many sensor types!\n.left-column[\nActive vs passive sensors\nMultispectral vs hyperspectral (imaging spectrometers)\nMuch variation within each type\n\nEspecially spectral range and resolution!\n\n.footnote[Pettorelli et al. 2018] ]\n.right-column[\n\n\n\n\n\n\n\n\n\n]\n\nlayout: false"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#multispectral-vs-hyperspectral-imaging-spectrometers",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#multispectral-vs-hyperspectral-imaging-spectrometers",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Multispectral vs hyperspectral (imaging spectrometers)",
+    "text": "Multispectral vs hyperspectral (imaging spectrometers)\n\n\n\n\n\n\n\n\n\n\n\nRemote sensing is particularly useful in combo with other observations\n\n\n\n\n\n\n\n\n\n.footnote[Turner 2014]\n\nclass: center\n##Productivity and Seasonality\n\n\n\n\n\n\n\n\n\n\nclass: center\n##Land cover (and change)\n\n\n\n\n\n\n\n\n\n.left[.footnote[Skowno et al. 2021]]\n\nclass: center\n##Land cover change detection\n\n\n\n\n\n\n\n\n\n.left[.footnote[Moncrieff 2022]]\n\nclass: center\n##Land cover change time series\n\n\n\n\n\n\n\n\n\n.left[.footnote[Moilwe et al. in prep]]\n\nclass: center, middle"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#but-what-about-metrics-like-species-functional-and-phylogenetic-diversity",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#but-what-about-metrics-like-species-functional-and-phylogenetic-diversity",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "But what about metrics like species, functional and phylogenetic diversity?",
+    "text": "But what about metrics like species, functional and phylogenetic diversity?\n\nlayout: false\n.pull-left[ ## Functional diversity?\n\n\n\n\n\n\n\n\n\nProteaceae shrubs (dark green) surrounded by low shrubs, forbs and graminoids at Silvermine, TMNP.\n.footnote[Data from City of Cape Town]\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\nLight detection and ranging (LiDAR) allows you to measure topography and the vertical structure of vegetation.\n.footnote[Purkis and Klemas 2011] ]\n\nlayout: false\n.pull-left[ ## Functional diversity?\nImaging spectroscopy (“hyperspectral” remote sensing) allows direct measurement of leaf traits.\n\n\n\n\n\n\n\n\n\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n]\n\nlayout: false\n\n\n\n\n\n\n\n\n\n\nlayout: false"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#phylogenetic-diversity",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#phylogenetic-diversity",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Phylogenetic diversity?",
+    "text": "Phylogenetic diversity?\n\n\n\n\n\n\n\n\n\n.left[.footnote[Meireles et al. 2020]]\nLeaf spectra are phylogenetically conserved for some regions, so it’s possible that we’ll be able to discern lineages using imaging spectroscopy…\n\nlayout: false\n.pull-left[ ## Identifying species?\nWe can monitor populations of large species…, but identifying all species present…?\n\n\n\n\n\n\n\n\n\n.footnote[https://xkcd.com/1838/] ]\n.pull-right[\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.footnote[Hadebe 2021 MSc thesis] ]\n\nlayout: false"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#mapping-cedars-with-lidar",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#mapping-cedars-with-lidar",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Mapping cedars with Lidar?",
+    "text": "Mapping cedars with Lidar?\n.pull-left[\n\n\n\n\n\n\n\n\n\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n]\n.footnote[De Rif cedar plantation above Driehoek | www.bioscape.io/data]\n\nclass: center"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#there-are-challenges-and-limitations",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#there-are-challenges-and-limitations",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "There are challenges and limitations…",
+    "text": "There are challenges and limitations…\n\n\n\n\n\n\n\n\n\n.left[.footnote[Schimel et al. 2020]]\n\nclass: center"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#but-this-is-what-fancy-modelling-and-proxies-are-for",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#but-this-is-what-fancy-modelling-and-proxies-are-for",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "But this is what fancy modelling and proxies are for…",
+    "text": "But this is what fancy modelling and proxies are for…\n\n\n\n\n\n\n\n\n\n.left[.footnote[Jetz et al. 2016]]\n\nclass: center"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#spectral-unmixing-can-detect-spectral-signatures",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#spectral-unmixing-can-detect-spectral-signatures",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Spectral unmixing can detect “spectral signatures”",
+    "text": "Spectral unmixing can detect “spectral signatures”\n.left-column[\n\n\n\n\n\n\n\n\n\n.smaller[Jonaskop, Riviersonderend Mountains] ]\n.right-column[\nMap species/types based on their reflectance of the electromagnetic spectrum!\n\n\n\n\n\n\n\n\n\nGiven a library of spectral signatures of different species and land cover types (endmembers), spectral unmixing infers the composition of each pixel from the possible mixes of endmembers. This gives a cover map of the majority endmember for each pixel (as here) and the fraction of each endmember for all pixels (next slide).\n]\n\nclass: center"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#spectral-unmixing-can-detect-spectral-signatures-1",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#spectral-unmixing-can-detect-spectral-signatures-1",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Spectral unmixing can detect “spectral signatures”",
+    "text": "Spectral unmixing can detect “spectral signatures”\n\n\n\n\n\n\n\n\n\n.left[.footnote[Fractional cover of species (e.g. pines), functional groups or land cover types! ]]\n\nlayout: false\n.pull-left[ ## Combining remote sensing and in situ data\nUsing remotely sensed environmental data to inform species distribution models (SDMs)\n\n\n\n\n\n\n\n\n\nE.g. Observed cloud frequency from the MODIS satellite is a better predictor of the distribution of Protea cynaroides than interpolated precipitation.\n.footnote[Wilson and Jetz 2016]\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n]\n\nlayout: false\n.pull-left[ ## The Spectral Diversity Hypothesis\nIs spectral diversity a good proxy for biotic diversity?\n\n\n\n\n\n\n\n\n\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\nA test looking at spectral diversity from leaf spectra for 1210 species across 1267 plots supports the hypothesis at the leaf level…\n.footnote[Frye et al. 2021] ]\n\nlayout: false\n.pull-left[ ## The Spectral Diversity Hypothesis\n\n\n\n\n\n\n\n\n\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\nBut canopy reflectance is more complex…\nLeaf angle, shadow, density, etc affect the spectral reflectance of vegetation, reducing our ability to identify and map species - especially as the resolution of the imagery coarsens.\n.footnote[van Leeuwen et al. 2021] ]\n\nlayout: false\n.pull-left[ ### Environmental heterogeneity\nAnother approach is just to map and monitor environmental heterogeneity\n####“Conserving nature’s stage”\nThe Nature Conservancy and others are using this approach to identify parcels of Earth that are valuable for their capacity to support diverse life forms today and into the future\nTypically identified based on their abiotic heterogeneity or geodiversity, much of which can be mapped and/or monitored with remote sensing - topography, climate, soils, etc\n]\n.pull-right[\n\n\n\n\n\n\n\n\n\n.footnote[Alexander von Humboldt] ]\n\nclass: middle"
+  },
+  {
+    "objectID": "talks/RemoteSensingBio_UCTMCB2026.html#take-home",
+    "href": "talks/RemoteSensingBio_UCTMCB2026.html#take-home",
+    "title": "Remote Sensing of Biodiversity",
+    "section": "Take-home",
+    "text": "Take-home\nRemote sensing is a rapidly growing field that is seen as the holy grail for mapping and monitoring biodiversity (and Essential Biodiversity Variables) at high spatial resolution from local to global scales.\nThere are many remote sensing methods and tools, and these are constantly improving.\nWhile there are many limitations (e.g. spatial resolution), many can be addressed with modelling approaches, and are being overcome as the technology and methods improve.\nRemote sensing approaches must be paired with in situ observations to “ground-truth” and calibrate/validate that they do reflect reality on the ground.\nRemote sensing can be valuable for mapping habitat variables such as climate, topography, etc that can inform inference about species distributions or other proxies for biodiversity like environmental heterogeneity or spectral diversity.\n\nclass: center, middle"
+  }
+]

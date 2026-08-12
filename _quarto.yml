@@ -29,7 +29,7 @@ website:
         text: Teaching
       - href: lab/index.qmd
         text: Lab
-      - href: presentations/index.qmd
+#      - href: presentations/index.qmd
 #        text: Presentations
       - href: https://github.com/PlantEcologi
         icon: "github"
