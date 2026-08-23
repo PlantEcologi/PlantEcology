@@ -7,3 +7,5 @@ title: ""
 ### 2026
 
 [_Remote Sensing of Biodiversity: From Landscapes to Genes_, UCT, Molecular and Cell Biology, 18 March 2026](/talks/RemoteSensingBio_UCTMCB2026.html)
+
+[_Simons Collaboration on Biodiversity Trajectories and Causal understanding of Ecoevolutionary dynamics (BioTraCE)_, Online, 9 September 2026](/talks/SimonsBioTraCE.html)

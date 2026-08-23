@@ -1,0 +1,203 @@
+/*-- scss:uses --*/
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Source+Sans+3:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------
+// Colours (Sketchy-inspired)
+// ---------------------------------------------------------------------
+
+// $body-bg: #fffef8 !default;
+$body-bg: #ffffff !default;
+$body-color: #3b3b3b !default;
+
+$link-color: #2f74c0 !default;
+$link-color-hover: darken($link-color, 10%) !default;
+
+$selection-bg: #d6ecff !default;
+
+
+// ---------------------------------------------------------------------
+// Fonts
+// ---------------------------------------------------------------------
+
+// $font-family-sans-serif: "Source Sans 3", Helvetica, Arial, sans-serif !default;
+// $font-family-sans-serif:      Neucha, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+$font-family-sans-serif:      Neucha, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+// $font-family-monospace:
+//  "SFMono-Regular",
+//  Menlo,
+//  Monaco,
+//  Consolas,
+//  monospace !default;
+
+$presentation-heading-font: "Cabin Sketch", cursive !default;
+
+$presentation-heading-font-weight: 700 !default;
+
+$presentation-heading-color: #444 !default;
+
+$presentation-heading-text-transform: none !default;
+
+$presentation-heading-letter-spacing: normal !default;
+
+
+// ---------------------------------------------------------------------
+// Code
+// ---------------------------------------------------------------------
+
+$code-color: #444 !default;
+
+$code-bg: #f8f8f8 !default;
+
+$code-block-bg: #fafafa !default;
+
+$code-block-border-color: #d9d9d9 !default;
+
+$code-block-font-size: 0.72em !default;
+
+
+// ---------------------------------------------------------------------
+// Layout
+// ---------------------------------------------------------------------
+
+$presentation-font-size-root: 36px !default;
+
+$presentation-line-height: 1.35 !default;
+
+$presentation-block-margin: 16px !default;
+
+$border-radius: 8px !default;
+
+
+/*-- scss:rules --*/
+
+// ------------------------------------------------------------
+// Headings
+// ------------------------------------------------------------
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  text-shadow: none;
+}
+
+.reveal h1 {
+  font-size: 2.3em;
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+}
+
+.reveal h3 {
+  font-size: 1.25em;
+}
+
+
+// ------------------------------------------------------------
+// Links
+// ------------------------------------------------------------
+
+.reveal a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+}
+
+
+// ------------------------------------------------------------
+// Code blocks
+// ------------------------------------------------------------
+
+.reveal pre {
+  background: $code-block-bg;
+  border: 2px solid $code-block-border-color;
+  border-radius: 8px;
+  padding: 0.6em;
+  box-shadow: none;
+}
+
+.reveal pre code {
+  background: transparent;
+}
+
+.reveal code {
+  background: $code-bg;
+  border-radius: 4px;
+  padding: 0.05em 0.25em;
+}
+
+
+// ------------------------------------------------------------
+// Blockquotes
+// ------------------------------------------------------------
+
+.reveal blockquote {
+  border-left: 5px solid $link-color;
+  padding-left: 1em;
+  background: transparent;
+  box-shadow: none;
+}
+
+
+// ------------------------------------------------------------
+// Images
+// ------------------------------------------------------------
+
+.reveal img {
+  border-radius: 8px;
+}
+
+
+// ------------------------------------------------------------
+// Title slide
+// ------------------------------------------------------------
+
+.reveal .title-slide h1 {
+  color: $presentation-heading-color;
+}
+
+.reveal .title-slide .subtitle {
+  color: lighten($body-color, 15%);
+}
+
+
+// ------------------------------------------------------------
+// Photo grid slide
+// ------------------------------------------------------------
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.2rem 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.photo-card {
+  text-align: center;
+  font-size: 0.65em;
+  line-height: 1.2;
+}
+
+.photo-card .circle {
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 0.45rem auto;
+}
+
+.photo-card strong {
+  display: block;
+  font-size: 1.05em;
+  margin-bottom: 0.2rem;
+}

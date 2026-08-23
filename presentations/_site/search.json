@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "presentations",
     "section": "",
-    "text": "Remote Sensing of Biodiversity: From Landscapes to Genes, UCT, Molecular and Cell Biology, 18 March 2026"
+    "text": "Remote Sensing of Biodiversity: From Landscapes to Genes, UCT, Molecular and Cell Biology, 18 March 2026\nSimons Collaboration on Biodiversity Trajectories and Causal understanding of Ecoevolutionary dynamics (BioTraCE), Online, 9 September 2026"
   },
   {
     "objectID": "index.html#presentations",
     "href": "index.html#presentations",
     "title": "presentations",
     "section": "",
-    "text": "Remote Sensing of Biodiversity: From Landscapes to Genes, UCT, Molecular and Cell Biology, 18 March 2026"
+    "text": "Remote Sensing of Biodiversity: From Landscapes to Genes, UCT, Molecular and Cell Biology, 18 March 2026\nSimons Collaboration on Biodiversity Trajectories and Causal understanding of Ecoevolutionary dynamics (BioTraCE), Online, 9 September 2026"
   },
   {
     "objectID": "talks/RemoteSensingBio_UCTMCB2026.html",
@@ -110,5 +110,173 @@
     "title": "Remote Sensing of Biodiversity",
     "section": "Take-home",
     "text": "Take-home\nRemote sensing is a rapidly growing field that is seen as the holy grail for mapping and monitoring biodiversity (and Essential Biodiversity Variables) at high spatial resolution from local to global scales.\nThere are many remote sensing methods and tools, and these are constantly improving.\nWhile there are many limitations (e.g. spatial resolution), many can be addressed with modelling approaches, and are being overcome as the technology and methods improve.\nRemote sensing approaches must be paired with in situ observations to “ground-truth” and calibrate/validate that they do reflect reality on the ground.\nRemote sensing can be valuable for mapping habitat variables such as climate, topography, etc that can inform inference about species distributions or other proxies for biodiversity like environmental heterogeneity or spectral diversity.\n\nclass: center, middle"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-1",
+    "href": "talks/SimonsBioTraCE.html#section-1",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "We will provide the tools to build predictive theory and make accurate forecasts of biodiversity and Nature’s Contributions to People."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#three-core-challenges",
+    "href": "talks/SimonsBioTraCE.html#three-core-challenges",
+    "title": "BioTRaCE",
+    "section": "Three Core Challenges",
+    "text": "Three Core Challenges\n\n\n\nDiversity\n\n\n\nObservation\n\n\n\n\nInference"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#three-solutions",
+    "href": "talks/SimonsBioTraCE.html#three-solutions",
+    "title": "BioTRaCE",
+    "section": "Three Solutions",
+    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nProvides mechanistic links between scales from organism to ecosystem"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#three-solutions-1",
+    "href": "talks/SimonsBioTraCE.html#three-solutions-1",
+    "title": "BioTRaCE",
+    "section": "Three Solutions",
+    "text": "Three Solutions\n\n\nObservation\n\n\n\nSatellite Remote Sensing\n\nProvides repeated observations at scales from metres to the globe"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#three-solutions-2",
+    "href": "talks/SimonsBioTraCE.html#three-solutions-2",
+    "title": "BioTRaCE",
+    "section": "Three Solutions",
+    "text": "Three Solutions\n\n\nInference\n\n\n\nModern Causal Statistics\n\nAllows us to test causation at the scale of observations"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions",
+    "href": "talks/SimonsBioTraCE.html#combining-the-solutions",
+    "title": "BioTRaCE",
+    "section": "Combining the solutions",
+    "text": "Combining the solutions\nTrait maps from airborne imaging spectroscopy"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-1",
+    "href": "talks/SimonsBioTraCE.html#combining-the-solutions-1",
+    "title": "BioTRaCE",
+    "section": "Combining the solutions",
+    "text": "Combining the solutions\nTrait time-series from multispectral satellites"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-2",
+    "href": "talks/SimonsBioTraCE.html#combining-the-solutions-2",
+    "title": "BioTRaCE",
+    "section": "Combining the solutions",
+    "text": "Combining the solutions\nModelling and forecasting trait time-series"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-3",
+    "href": "talks/SimonsBioTraCE.html#combining-the-solutions-3",
+    "title": "BioTRaCE",
+    "section": "Combining the solutions",
+    "text": "Combining the solutions\nUsing causal statistics to text drivers and theory at scale"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#a-moonshot-solution",
+    "href": "talks/SimonsBioTraCE.html#a-moonshot-solution",
+    "title": "BioTRaCE",
+    "section": "A moonshot solution !",
+    "text": "A moonshot solution !\nDescribing eco-evolutionary dynamics by integrating trait-based and metabolic scaling theories\n\n\n\n\n\n\nSynthesizing theory across physiology, population biology, evolutionary biology, community ecology, ecosystem ecology, and global ecology."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#our-team",
+    "href": "talks/SimonsBioTraCE.html#our-team",
+    "title": "BioTRaCE",
+    "section": "Our Team",
+    "text": "Our Team\n\n\n Jasper Slingsby\nShort description of its ecological role or key trait.\n\n\n Ryan Blanchard\nShort description of its ecological role or key trait.\n\n\n Res Altwegg\nShort description of its ecological role or key trait.\n\n\n Samukelisiwe Msweli\nShort description of its ecological role or key trait.\n\n\n Patrick O’Farrell\nShort description of its ecological role or key trait.\n\n\n Andrew Skowno\nShort description of its ecological role or key trait.\n\n\n Erin Hestir\nShort description of its ecological role or key trait.\n\n\n Cory Merow\nShort description of its ecological role or key trait.\n\n\n Efthymios Nikolopoulos\nShort description of its ecological role or key trait.\n\n\n Maria Santos\nShort description of its ecological role or key trait.\n\n\n Philip Townsend\nShort description of its ecological role or key trait.\n\n\n Adam Wilson\nShort description of its ecological role or key trait."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#what-success-looks-like",
+    "href": "talks/SimonsBioTraCE.html#what-success-looks-like",
+    "title": "BioTRaCE",
+    "section": "What success looks like…",
+    "text": "What success looks like…"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#biotrace",
+    "href": "talks/SimonsBioTraCE.html#biotrace",
+    "title": "BioTRaCE",
+    "section": "BioTraCE",
+    "text": "BioTraCE\n\n\nProviding the tools to build predictive theory and make accurate forecasts of biodiversity and Nature’s Contributions to People."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#slide-title-faded",
+    "href": "talks/SimonsBioTraCE.html#slide-title-faded",
+    "title": "BioTRaCE",
+    "section": "Slide Title Faded",
+    "text": "Slide Title Faded"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#slide-with-pic-in-absolute-spot",
+    "href": "talks/SimonsBioTraCE.html#slide-with-pic-in-absolute-spot",
+    "title": "BioTRaCE",
+    "section": "Slide with pic in absolute spot",
+    "text": "Slide with pic in absolute spot"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#better-not-absolute",
+    "href": "talks/SimonsBioTraCE.html#better-not-absolute",
+    "title": "BioTRaCE",
+    "section": "Better not absolute",
+    "text": "Better not absolute"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#slide-title-faded-1",
+    "href": "talks/SimonsBioTraCE.html#slide-title-faded-1",
+    "title": "BioTRaCE",
+    "section": "Slide Title Faded",
+    "text": "Slide Title Faded"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#slide-with-parallax-background",
+    "href": "talks/SimonsBioTraCE.html#slide-with-parallax-background",
+    "title": "BioTRaCE",
+    "section": "Slide with parallax background",
+    "text": "Slide with parallax background"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-3",
+    "href": "talks/SimonsBioTraCE.html#section-3",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "A Slide with Big Text"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#quarto",
+    "href": "talks/SimonsBioTraCE.html#quarto",
+    "title": "BioTRaCE",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#bullets",
+    "href": "talks/SimonsBioTraCE.html#bullets",
+    "title": "BioTRaCE",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#code",
+    "href": "talks/SimonsBioTraCE.html#code",
+    "title": "BioTRaCE",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#columns",
+    "href": "talks/SimonsBioTraCE.html#columns",
+    "title": "BioTRaCE",
+    "section": "Columns",
+    "text": "Columns\n\n\nLeft column\n\nMiddle column\n\nRight column"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#hide-slide-from-counter",
+    "href": "talks/SimonsBioTraCE.html#hide-slide-from-counter",
+    "title": "BioTRaCE",
+    "section": "Hide Slide From Counter",
+    "text": "Hide Slide From Counter"
   }
 ]

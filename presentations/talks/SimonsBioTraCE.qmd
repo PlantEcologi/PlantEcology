@@ -1,0 +1,332 @@
+---
+title: "BioTRaCE"
+subtitle: "Simons Collaboration on Biodiversity Trajectories and Causal understanding of Ecoevolutionary dynamics"
+format:
+  revealjs:
+    theme:
+      - default
+      - sketchy.scss
+title-slide-attributes:
+    data-background-image: img/NG/Ischyrolepis tenuissima_Female.jpg
+    data-background-size: contain
+    data-background-position: left
+---
+
+##  {.center background-image="img/NG/Bobartia filiformis narrow.png" background-size="200px" background-position="right"}
+
+![](img/bendingthecurve.jpg){width="80%" height="80%" fig-align="left"}
+
+##  {.center background-image="img/NG/Adenandra villosa_2.jpg" background-size="300px" background-position="right"}
+
+::::: columns
+::: {.column width="65%"}
+### We will provide the tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People.
+:::
+
+::: {.column width="30%"}
+:::
+:::::
+
+## Three Core Challenges {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+::::::::: center
+:::::::: columns
+::: {.column width="30%"}
+Diversity
+
+![](img/fynbos.jpg)
+:::
+
+:::: {.column width="30%"}
+::: fragment
+Observation
+
+![](img/gbif_records.png)
+:::
+::::
+
+:::: {.column width="30%"}
+::: fragment
+Inference
+
+![](img/rothamsted-grass.jpeg)
+:::
+::::
+::::::::
+:::::::::
+
+## Three Solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+:::::: columns
+::: {.column width="45%"}
+Diversity
+
+![](img/fynbos.jpg)
+:::
+
+:::: {.column width="45%"}
+::: fragment
+Trait-Based Ecology
+
+![](img/traitbasedecology.png)
+
+Provides mechanistic links between scales from organism to ecosystem
+:::
+::::
+::::::
+
+## Three Solutions {style="text-align: center;"}
+
+:::::: columns
+::: {.column width="45%"}
+Observation
+
+![](img/gbif_records.png)
+:::
+
+:::: {.column width="45%"}
+::: fragment
+Satellite Remote Sensing
+
+![](img/chime.gif)
+
+Provides repeated observations at scales from metres to the globe
+:::
+::::
+::::::
+
+## Three Solutions {style="text-align: center;"}
+
+:::::: columns
+::: {.column width="45%"}
+Inference
+
+![](img/rothamsted-grass.jpeg)
+:::
+
+:::: {.column width="45%"}
+::: fragment
+Modern Causal Statistics
+
+![](img/causaltraits.png)
+
+Allows us to test causation at the scale of observations
+:::
+::::
+::::::
+
+## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+Trait maps from airborne imaging spectroscopy
+
+:::::: columns
+::: {.column width="30%"}
+![](img/bioscape_flight.png)
+:::
+
+:::: {.column width="65%"}
+::: fragment
+![](img/traitmapping.png)
+:::
+::::
+::::::
+
+## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+Trait time-series from multispectral satellites
+
+:::::: columns
+::: {.column width="30%"}
+![](img/traitmapping.png) ![](img/landsat.gif)
+:::
+
+:::: {.column width="65%"}
+::: fragment
+![](img/ndvi%20traj%20temp.png)
+:::
+::::
+::::::
+
+## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+Modelling and forecasting trait time-series
+
+:::::: columns
+::: {.column width="30%"}
+![](img/traitmapping.png) ![](img/ndvi%20traj%20temp.png)
+:::
+
+:::: {.column width="65%"}
+::: fragment
+![](img/example_ts.png)
+:::
+::::
+::::::
+
+## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+Using causal statistics to text drivers and theory at scale
+
+:::::: columns
+::: {.column width="30%"}
+![](img/ndvi%20traj%20temp.png) ![](img/example_ts.png)
+:::
+
+:::: {.column width="65%"}
+::: fragment
+![](img/example_ts.png)
+:::
+::::
+::::::
+
+## A moonshot solution ! {style="text-align: center;"}
+
+Describing eco-evolutionary dynamics by integrating trait-based and metabolic scaling theories
+
+:::::: columns
+::: {.column width="70%"}
+![](img/traitdriver.png)
+:::
+
+:::: {.column width="30%"}
+::: {.fragment style="font-size: 0.9em;"}
+<br>
+
+Synthesizing theory across physiology, population biology, evolutionary biology, community ecology, ecosystem ecology, and global ecology.
+:::
+::::
+::::::
+
+##  {background-video="img/SimonsFig1.mov" background-video-muted="true" background-size="contain"}
+
+## Our Team
+
+::::::::::::::: photo-grid
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Jasper Slingsby**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Ryan Blanchard**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Res Altwegg**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Samukelisiwe Msweli**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Patrick O’Farrell**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Andrew Skowno**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Erin Hestir**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Cory Merow**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Efthymios Nikolopoulos**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Maria Santos**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Philip Townsend**\
+Short description of its ecological role or key trait.
+:::
+
+::: photo-card
+![](img/team/jasper26.jpeg){.circle} **Adam Wilson**\
+Short description of its ecological role or key trait.
+:::
+:::::::::::::::
+
+## What success looks like...
+
+## BioTraCE {.center background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right"}
+
+::::: columns
+::: {.column width="65%"}
+### Providing the tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People.
+:::
+
+::: {.column width="30%"}
+:::
+:::::
+
+## Slide Title Faded {background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right" background-opacity="0.75"}
+
+## Slide with pic in absolute spot
+
+![](img/NG/Drosera%20capensis_flower.jpg){.absolute bottom="-50" right="850" width="400" height="600"}
+
+## Better not absolute {background-image="img/NG/Drosera capensis_flower.jpg" background-size="400px" background-position="left"}
+
+## Slide Title Faded {background-image="img/NG/Drosera capensis_flower.jpg" background-size="400px" background-position="right" background-opacity="0.75"}
+
+## Slide with parallax background {parallax-background-image="img/NG/Adenandra villosa.jpg"}
+
+## 
+
+::: r-fit-text
+A Slide with Big Text
+:::
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+- Content authored with markdown
+- Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Columns
+
+:::::: columns
+::: {.column width="30%"}
+Left column
+:::
+
+::: {.column width="30%"}
+Middle column
+:::
+
+::: {.column width="30%"}
+Right column
+:::
+::::::
+
+## Hide Slide From Counter {visibility="uncounted"}
