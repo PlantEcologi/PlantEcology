@@ -5,14 +5,14 @@ format:
   revealjs:
     theme:
       - sketchy.scss
-    self-contained: false
+    self-contained: true
 title-slide-attributes:
     data-background-image: img/NG/Ischyrolepis tenuissima_Female.jpg
     data-background-size: contain
     data-background-position: left
 ---
 
-##  {.center background-image="img/NG/Bobartia filiformis narrow.png" background-size="200px" background-position="right"}
+##  {.center background-image="img/NG/Drosera capensis_flower.jpg" background-size="400px" background-position="right"}
 
 ![](img/bendingthecurve.jpg){width="80%" height="80%" fig-align="left"}
 
@@ -88,7 +88,7 @@ Observation
 ::: fragment
 Satellite Remote Sensing
 
-![](img/chime.gif)
+![](img/chime_smaller.gif)
 
 Provides repeated observations at scales from metres to the globe
 :::
@@ -200,7 +200,7 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 
 ##  {background-video="img/Simons_Fig_Anim.mov" background-video-muted="true" background-size="contain"}
 
-## Our Team {background-image="img/BioTraCE_team.svg" background-position="center"}
+## Our Team {background-image="img/BioTraCE_team.png" background-position="center"}
 
 ::::: columns
 :::: {.column width="25%"}
