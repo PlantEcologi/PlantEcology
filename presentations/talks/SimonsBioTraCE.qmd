@@ -205,8 +205,6 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 ::::: columns
 :::: {.column width="25%"}
 ::: {.fragment style="font-size: 0.7em;"}
-Expertise:
-
 - Remote Sensing of Biodiversity
 - Statistical Ecology
 - Theoretical Ecology
@@ -222,6 +220,21 @@ Expertise:
 :::
 ::::
 :::::
+
+## What success looks like...
+
+## BioTraCE {.center background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right"}
+
+::::: columns
+::: {.column width="65%"}
+### Providing tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People at scale.
+:::
+
+::: {.column width="30%"}
+:::
+:::::
+
+## Slide Title Faded {background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right" background-opacity="0.75"}
 
 ## Our Team
 
@@ -287,20 +300,6 @@ Short description of its ecological role or key trait.
 :::
 :::::::::::::::
 
-## What success looks like...
-
-## BioTraCE {.center background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right"}
-
-::::: columns
-::: {.column width="65%"}
-### Providing tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People at scale.
-:::
-
-::: {.column width="30%"}
-:::
-:::::
-
-## Slide Title Faded {background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right" background-opacity="0.75"}
 
 ## Slide with pic in absolute spot
 
