@@ -4,7 +4,6 @@ subtitle: "Simons Collaboration on Biodiversity Trajectories and Causal understa
 format:
   revealjs:
     theme:
-      - default
       - sketchy.scss
     self-contained: true
 title-slide-attributes:
@@ -21,7 +20,7 @@ title-slide-attributes:
 
 ::::: columns
 ::: {.column width="65%"}
-### We will provide the tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People.
+### We will provide tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People at scale.
 :::
 
 ::: {.column width="30%"}
@@ -118,11 +117,12 @@ Allows us to test causation at the scale of observations
 
 ## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
 
-Trait maps from airborne imaging spectroscopy
+Trait maps from field surveys and airborne imaging spectroscopy
 
 :::::: columns
 ::: {.column width="30%"}
-![](img/bioscape_flight.png)
+![](img/bioscape_flight_wide.png)
+![](img/plot_survey.gif)
 :::
 
 :::: {.column width="65%"}
@@ -166,7 +166,7 @@ Modelling and forecasting trait time-series
 
 ## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
 
-Using causal statistics to text drivers and theory at scale
+Using causal statistics to test drivers and theory at scale
 
 :::::: columns
 ::: {.column width="30%"}
@@ -198,7 +198,30 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 ::::
 ::::::
 
-##  {background-video="img/SimonsFig1.mov" background-video-muted="true" background-size="contain"}
+##  {background-video="img/Simons_Fig_Anim.mov" background-video-muted="true" background-size="contain"}
+
+## Our Team {background-image="img/BioTraCE_team.svg" background-position="center"}
+
+::::: columns
+:::: {.column width="25%"}
+::: {.fragment style="font-size: 0.7em;"}
+Expertise:
+
+- Remote Sensing of Biodiversity
+- Statistical Ecology
+- Theoretical Ecology
+- Community Ecology
+- Trait Ecology
+- Landscape Ecology
+- Hydroclimatology
+- People and Nature
+- Conservation Planning
+- Science and Policy
+- and more...
+
+:::
+::::
+:::::
 
 ## Our Team
 
@@ -270,7 +293,7 @@ Short description of its ecological role or key trait.
 
 ::::: columns
 ::: {.column width="65%"}
-### Providing the tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People.
+### Providing tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People at scale.
 :::
 
 ::: {.column width="30%"}

@@ -1,5 +1,8 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!presentations/"          # Excludes an entire folder of slides
 
 website:
   title: "Plant Ecology UCT"
