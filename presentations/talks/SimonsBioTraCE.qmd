@@ -14,13 +14,13 @@ title-slide-attributes:
 
 ##  {.center background-image="img/NG/Drosera capensis_flower.jpg" background-size="400px" background-position="right"}
 
-![](img/bendingthecurve.jpg){width="80%" height="80%" fig-align="left"}
+![](img/BendingtheCurve.png){width="80%" height="80%" fig-align="left"}
 
 ##  {.center background-image="img/NG/Adenandra villosa_2.jpg" background-size="300px" background-position="right"}
 
 ::::: columns
-::: {.column width="65%"}
-### We will provide tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People at scale.
+::: {.column width="70%"}
+### We will develop a unified, testable framework for predicting biodiversity dynamics and Nature's Contributions to People across space and time.
 :::
 
 ::: {.column width="30%"}
@@ -32,7 +32,7 @@ title-slide-attributes:
 ::::::::: center
 :::::::: columns
 ::: {.column width="30%"}
-Diversity
+Biodiversity
 
 ![](img/fynbos.jpg)
 :::
@@ -41,7 +41,7 @@ Diversity
 ::: fragment
 Observation
 
-![](img/gbif_records.png)
+![](img/gbif_africa.png)
 :::
 ::::
 
@@ -68,9 +68,9 @@ Diversity
 ::: fragment
 Trait-Based Ecology
 
-![](img/traitbasedecology.png)
+![](img/traits_linkages.png)
 
-Provides mechanistic links between scales from organism to ecosystem
+Mechanistic links between scales from organism to ecosystem and Nature's Contributions to People
 :::
 ::::
 ::::::
@@ -81,7 +81,7 @@ Provides mechanistic links between scales from organism to ecosystem
 ::: {.column width="45%"}
 Observation
 
-![](img/gbif_records.png)
+![](img/gbif_africa.png)
 :::
 
 :::: {.column width="45%"}
@@ -127,10 +127,14 @@ Trait maps from field surveys and airborne imaging spectroscopy
 
 :::: {.column width="65%"}
 ::: fragment
-![](img/traitmapping.png)
+![](img/traitmapping_new.jpg)
 :::
 ::::
 ::::::
+
+::: fragment
+![](img/trait_legend.png){.absolute bottom=0 right=0 width="200" height="100"}
+:::
 
 ## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
 
@@ -138,12 +142,12 @@ Trait time-series from multispectral satellites
 
 :::::: columns
 ::: {.column width="30%"}
-![](img/traitmapping.png) ![](img/landsat.gif)
+![](img/traitmapping_new.jpg) ![](img/landsat.gif)
 :::
 
 :::: {.column width="65%"}
 ::: fragment
-![](img/ndvi%20traj%20temp.png)
+![](img/timeseries.svg)
 :::
 ::::
 ::::::
@@ -154,12 +158,13 @@ Modelling and forecasting trait time-series
 
 :::::: columns
 ::: {.column width="30%"}
-![](img/traitmapping.png) ![](img/ndvi%20traj%20temp.png)
+![](img/traitmapping_new.jpg)
+![](img/timeseries.svg)
 :::
 
 :::: {.column width="65%"}
 ::: fragment
-![](img/example_ts.png)
+![](img/ssm.svg)
 :::
 ::::
 ::::::
@@ -170,12 +175,12 @@ Using causal statistics to test drivers and theory at scale
 
 :::::: columns
 ::: {.column width="30%"}
-![](img/ndvi%20traj%20temp.png) ![](img/example_ts.png)
+![](img/timeseries.svg) ![](img/ssm.svg)
 :::
 
 :::: {.column width="65%"}
 ::: fragment
-![](img/example_ts.png)
+![](img/ssm.svg)
 :::
 ::::
 ::::::
@@ -197,6 +202,8 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 :::
 ::::
 ::::::
+
+## {background-image="img/thematrix.webp" background-position="center"}
 
 ##  {background-video="img/Simons_Fig_Anim.mov" background-video-muted="true" background-size="contain"}
 
@@ -221,13 +228,15 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 ::::
 :::::
 
-## What success looks like...
+## What success looks like... 
+
+![](img/success_draft.png)
 
 ## BioTraCE {.center background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right"}
 
 ::::: columns
-::: {.column width="65%"}
-### Providing tools to build predictive theory and make accurate forecasts of biodiversity and Nature's Contributions to People at scale.
+::: {.column width="70%"}
+### Providing a unified, testable framework for predicting biodiversity dynamics and Nature's Contributions to People across space and time.
 :::
 
 ::: {.column width="30%"}

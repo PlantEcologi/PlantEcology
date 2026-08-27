@@ -116,21 +116,21 @@
     "href": "talks/SimonsBioTraCE.html#section-1",
     "title": "BioTRaCE",
     "section": "",
-    "text": "We will provide tools to build predictive theory and make accurate forecasts of biodiversity and Nature’s Contributions to People at scale."
+    "text": "We will develop a unified, testable framework for predicting biodiversity dynamics and Nature’s Contributions to People across space and time."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-core-challenges",
     "href": "talks/SimonsBioTraCE.html#three-core-challenges",
     "title": "BioTRaCE",
     "section": "Three Core Challenges",
-    "text": "Three Core Challenges\n\n\n\nDiversity\n\n\n\nObservation\n\n\n\n\nInference"
+    "text": "Three Core Challenges\n\n\n\nBiodiversity\n\n\n\nObservation\n\n\n\n\nInference"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-solutions",
     "href": "talks/SimonsBioTraCE.html#three-solutions",
     "title": "BioTRaCE",
     "section": "Three Solutions",
-    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nProvides mechanistic links between scales from organism to ecosystem"
+    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nMechanistic links between scales from organism to ecosystem and Nature’s Contributions to People"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-solutions-1",
@@ -200,7 +200,7 @@
     "href": "talks/SimonsBioTraCE.html#biotrace",
     "title": "BioTRaCE",
     "section": "BioTraCE",
-    "text": "BioTraCE\n\n\nProviding tools to build predictive theory and make accurate forecasts of biodiversity and Nature’s Contributions to People at scale."
+    "text": "BioTraCE\n\n\nProviding a unified, testable framework for predicting biodiversity dynamics and Nature’s Contributions to People across space and time."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#slide-title-faded",
@@ -285,5 +285,33 @@
     "title": "BioTRaCE",
     "section": "Our Team",
     "text": "Our Team\n\n\n Jasper Slingsby\nShort description of its ecological role or key trait.\n\n\n Ryan Blanchard\nShort description of its ecological role or key trait.\n\n\n Res Altwegg\nShort description of its ecological role or key trait.\n\n\n Samukelisiwe Msweli\nShort description of its ecological role or key trait.\n\n\n Patrick O’Farrell\nShort description of its ecological role or key trait.\n\n\n Andrew Skowno\nShort description of its ecological role or key trait.\n\n\n Erin Hestir\nShort description of its ecological role or key trait.\n\n\n Cory Merow\nShort description of its ecological role or key trait.\n\n\n Efthymios Nikolopoulos\nShort description of its ecological role or key trait.\n\n\n Maria Santos\nShort description of its ecological role or key trait.\n\n\n Philip Townsend\nShort description of its ecological role or key trait.\n\n\n Adam Wilson\nShort description of its ecological role or key trait."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-4",
+    "href": "talks/SimonsBioTraCE.html#section-4",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "A Slide with Big Text"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-2",
+    "href": "talks/SimonsBioTraCE.html#section-2",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "We will develop a unified, testable framework for predicting biodiversity dynamics across space and time."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-5",
+    "href": "talks/SimonsBioTraCE.html#section-5",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "A Slide with Big Text"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#three-core-challenges-1",
+    "href": "talks/SimonsBioTraCE.html#three-core-challenges-1",
+    "title": "BioTRaCE",
+    "section": "Three Core Challenges",
+    "text": "Three Core Challenges\n\n\n\nDiversity\n\n\n\nObservation\n\n\n\n\nInference"
   }
 ]
