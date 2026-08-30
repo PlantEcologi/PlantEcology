@@ -116,49 +116,49 @@
     "href": "talks/SimonsBioTraCE.html#section-1",
     "title": "BioTRaCE",
     "section": "",
-    "text": "We will develop a unified, testable framework for predicting biodiversity dynamics and Nature’s Contributions to People across space and time."
+    "text": "Unfortunately, this is changing.\nIn 2017, some members of this team and I published the first documented evidence of climate-change driven diversity loss in this region.\nSince then, the region has experienced a 3-year megadrought, multiple floods from extreme heavy rainfall, and aseasonal fires.\nThis is a photo I took near my house a week or two ago. The combination of an out-of-season fire and barely any rain this wet season has resulted in 80-90% mortality in these large fire-resistant shrubs.\nWhat is happening to the rest of the thousands of less conspicuous species we’ll only know once we’ve censused and analysed our permanent vegetation survey plots in the area."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-core-challenges",
     "href": "talks/SimonsBioTraCE.html#three-core-challenges",
     "title": "BioTRaCE",
     "section": "Three Core Challenges",
-    "text": "Three Core Challenges\n\n\n\nBiodiversity\n\n\n\nObservation\n\n\n\n\nInference"
+    "text": "Three Core Challenges\n\n\n\nBiodiversity\n\n\n\nObservation\n\n\n\n\nInference\n\n\n\n\n\n\nDeveloping the ability to forecast biodiversity trajectories with confidence requires addressing three core challenges…\nFirstly, we need to reduce the innate variation and complexity of biodiversity if we are to explore mechanistic processes and linkages.\n\nFor example, the Cape Floristic Region is home to &gt;9000 vascular plant species and many more that are yet to be described. We cannot hope to directly model every single one of them.\n\nSecondly, we need to overcome challenges associated with patchy biodiversity observations in space and time.\n\nThis visualization of all species locality records in the Global Biodiversity Information Facility reveals many dark parts on the map. The record is even patchier when explored over time. One cannot model trajectories without data.\n\nThird, historically, we have only been able to test causal relationships with randomised control trials.\n\nThese are logistically and financially constrained, and even some of the largest and longest running, such as the Park Grass Experiment shown here, are only up to the size of a small farm.\nThis means that much of our current theory has only been properly tested at limited spatial and temporal extents, and there are many reasons they may not hold at broader scales as assumptions and the relative importance of processes change."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-solutions",
     "href": "talks/SimonsBioTraCE.html#three-solutions",
     "title": "BioTRaCE",
     "section": "Three Solutions",
-    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nMechanistic links between scales from organism to ecosystem and Nature’s Contributions to People"
+    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nMechanistic links between scales from organism to ecosystem and Nature’s Contributions to People\n\n\n\n\nFortunately, the past few decades and recent developments are allowing us to overcome these challenges.\nFirstly, trait-based ecology allows us to simplify the complexity of biodiversity and explore mechanistic links and processes that scale from individual organisms to ecosystems and Nature’s Contributions to People, such as carbon sequestration or provision of clean water."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-solutions-1",
     "href": "talks/SimonsBioTraCE.html#three-solutions-1",
     "title": "BioTRaCE",
     "section": "Three Solutions",
-    "text": "Three Solutions\n\n\nObservation\n\n\n\nSatellite Remote Sensing\n\nProvides repeated observations at scales from metres to the globe"
+    "text": "Three Solutions\n\n\nObservation\n\n\n\nSatellite Remote Sensing\n\nProvides repeated observations at scales from metres to the globe\n\n\n\n\nSecondly, satellite remote sensing provides repeated observations at scales from metres to the globe, which when paired with ground observations can tell us a lot about the state and trajectory of various facets of biodiversity."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-solutions-2",
     "href": "talks/SimonsBioTraCE.html#three-solutions-2",
     "title": "BioTRaCE",
     "section": "Three Solutions",
-    "text": "Three Solutions\n\n\nInference\n\n\n\nModern Causal Statistics\n\nAllows us to test causation at the scale of observations"
+    "text": "Three Solutions\n\n\nInference\n\n\n\nModern Causal Statistics\n\nAllows us to test causation at the scale of observations\n\n\n\n\nThird, burgeoning methods in modern causal statistics are freeing us from the constraints of randomised control trials and allowing us to infer causation at scales that match our observations and application."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions",
     "href": "talks/SimonsBioTraCE.html#combining-the-solutions",
     "title": "BioTRaCE",
     "section": "Combining the solutions",
-    "text": "Combining the solutions\nTrait maps from field surveys and airborne imaging spectroscopy"
+    "text": "Combining the solutions\nTrait maps from field surveys and imaging spectroscopy\n\n\n \n\n\n\n\n\n\n\n\n\n\nOur team have been working on these solutions and the potential to combine them to create something transformational for biodiversity theory, observation and forecasting.\nFirstly, members of our team have been leading efforts to map plant traits from imaging spectroscopy (hyperspectral remote sensing) groundtruthed with field data.\nHere we see false colour composites of 18 NEON landscapes in the US with three traits, Phenolics, Chlorophyll and Leaf Mass per unit Area mapped to red, green and blue. As you can see, these images reveal drastic variation in these traits within and between landscapes, revealing the legacy of ecological or land-use histories.\nOur team members have also been involved in the development of hyperspectral satellite missions (NASA’s Eagle and ESA’s CHIME) that are to be launched in the next 2-3 years."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-1",
     "href": "talks/SimonsBioTraCE.html#combining-the-solutions-1",
     "title": "BioTRaCE",
     "section": "Combining the solutions",
-    "text": "Combining the solutions\nTrait time-series from multispectral satellites"
+    "text": "Combining the solutions\nTrait time-series from multispectral satellites\n\n\n \n\n\n\n\n\n\n\nTime-series of traits from hyperspectral satellites will be transformational for biodiversity science and monitoring, but existing airborne and satellite data are patchy in space and time.\nAn intermediate approach, until definitive data becomes available, is to use field data and trait maps from airborne campaigns to calibrate and develop trait time-series from existing multispectral satellite records such as Landsat or Sentinel."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-2",
@@ -242,7 +242,7 @@
     "href": "talks/SimonsBioTraCE.html#section-3",
     "title": "BioTRaCE",
     "section": "",
-    "text": "A Slide with Big Text"
+    "text": "We will develop a unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.\n\n\n\n\n\n[Or drop this slide and go directly into the 3 core challenges?]"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#quarto",
@@ -291,14 +291,14 @@
     "href": "talks/SimonsBioTraCE.html#section-4",
     "title": "BioTRaCE",
     "section": "",
-    "text": "A Slide with Big Text"
+    "text": "[Or present something like this and say “We will develop a unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.”?]"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#section-2",
     "href": "talks/SimonsBioTraCE.html#section-2",
     "title": "BioTRaCE",
     "section": "",
-    "text": "We will develop a unified, testable framework for predicting biodiversity dynamics across space and time."
+    "text": "This uncertain state and trajectory of biodiversity and associated contributions to people is not unique to my home. It is a global crisis.\nAnd while we may know many of the drivers, we lack the ability to confidently track and forecast their impacts or future trajectories under different intervention scenarios."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#section-5",
@@ -313,5 +313,26 @@
     "title": "BioTRaCE",
     "section": "Three Core Challenges",
     "text": "Three Core Challenges\n\n\n\nDiversity\n\n\n\nObservation\n\n\n\n\nInference"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section",
+    "href": "talks/SimonsBioTraCE.html#section",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "I live in a Global Biodiversity Hotspot and one of the most botanically diverse regions of the world. My house is a stone’s throw away from Table Mountain National Park, which is home to almost 3000 vascular plant species."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-6",
+    "href": "talks/SimonsBioTraCE.html#section-6",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "A Slide with Big Text"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#section-7",
+    "href": "talks/SimonsBioTraCE.html#section-7",
+    "title": "BioTRaCE",
+    "section": "",
+    "text": "A Slide with Big Text"
   }
 ]
