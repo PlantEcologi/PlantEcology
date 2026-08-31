@@ -5,7 +5,7 @@ format:
   revealjs:
     theme:
       - sketchy.scss
-    self-contained: true
+    self-contained: false
 title-slide-attributes:
     data-background-image: img/NG/Ischyrolepis tenuissima_Female.jpg
     data-background-size: contain
@@ -14,7 +14,7 @@ title-slide-attributes:
 
 ##  {.center}
 
-![](img/silvermine.jpg){width="90%" height="90%" fig-align="center"}
+![](img/silvermine_enhanced.jpg){width="90%" height="90%" fig-align="center"}
 
 ::: {.notes}
 I live in a Global Biodiversity Hotspot and one of the most botanically diverse regions of the world. My house is a stone's throw away from Table Mountain National Park, which is home to almost 3000 vascular plant species.
@@ -66,6 +66,10 @@ And while we may know many of the drivers, we lack the ability to confidently tr
 ##  {.center background-image="img/NG/Adenandra villosa_2.jpg" background-size="300px" background-position="right"}
 
 ![](img/whatwewilldo.png){width="80%" height="80%" fig-align="left"}
+
+::: footer
+A unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature's Contributions to People across space and time.
+:::
 
 ::: {.notes}
 [Or present something like this and say "We will develop a unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature's Contributions to People across space and time."?]
@@ -139,7 +143,7 @@ Mechanistic links between scales from organism to ecosystem and Nature's Contrib
 :::{.notes}
 Fortunately, the past few decades and recent developments are allowing us to overcome these challenges.
 
-Firstly, trait-based ecology allows us to simplify the complexity of biodiversity and explore mechanistic links and processes that scale from individual organisms to ecosystems and Nature's Contributions to People, such as carbon sequestration or provision of clean water.
+Firstly, trait-based ecology allows us to simplify the complexity of biodiversity and explore mechanistic links and processes that scale from individual organisms to ecosystems and Nature's Contributions to People, such as carbon sequestration, provision of clean water, or even human well-being.
 :::
 
 ## Three Solutions {style="text-align: center;"}
@@ -218,7 +222,7 @@ Firstly, members of our team have been leading efforts to map plant traits from 
 
 Here we see false colour composites of 18 NEON landscapes in the US with three traits, Phenolics, Chlorophyll and Leaf Mass per unit Area mapped to red, green and blue. As you can see, these images reveal drastic variation in these traits within and between landscapes, revealing the legacy of ecological or land-use histories.
 
-Our team members have also been involved in the development of hyperspectral satellite missions (NASA's Eagle and ESA's CHIME) that are to be launched in the next 2-3 years.
+Our team members have also been involved in the development of hyperspectral satellite missions (NASA's Eagle and ESA's CHIME), that are to be launched in the next 2-3 years.
 :::
 
 ## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
@@ -232,7 +236,7 @@ Trait time-series from multispectral satellites
 
 :::: {.column width="65%"}
 ::: fragment
-![](img/timeseries.svg)
+![](img/traitTS.png)
 :::
 ::::
 ::::::
@@ -240,45 +244,40 @@ Trait time-series from multispectral satellites
 :::{.notes}
 Time-series of traits from hyperspectral satellites will be transformational for biodiversity science and monitoring, but existing airborne and satellite data are patchy in space and time.
 
-An intermediate approach, until definitive data becomes available, is to use field data and trait maps from airborne campaigns to calibrate and develop trait time-series from existing multispectral satellite records such as Landsat or Sentinel.
+An intermediate approach, to prepare for regular hyperspectral satellite data with continuous coverage, is to use field data and trait maps from airborne campaigns to calibrate and develop trait time-series from existing multispectral satellite records such as Landsat or Sentinel.
 :::
 
-## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+## Combining the solutions {style="text-align: center;"}
 
-Modelling and forecasting trait time-series
+Model and forecast trait time-series
 
 :::::: columns
 ::: {.column width="30%"}
-![](img/traitmapping_new.jpg)
-![](img/timeseries.svg)
+![](img/traitmapping_new.jpg) ![](img/landsat.gif)
 :::
 
 :::: {.column width="65%"}
-::: fragment
-![](img/ssm.svg)
-:::
+![](img/traitTS_forecast.png)
 ::::
 ::::::
 
-## Combining the solutions {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+## Combining the solutions {style="text-align: center;"}
 
-Using causal statistics to test drivers and theory at scale
+Use counterfactual forecasts to test causal drivers and theory
 
 :::::: columns
 ::: {.column width="30%"}
-![](img/timeseries.svg) ![](img/ssm.svg)
+![](img/traitmapping_new.jpg) ![](img/landsat.gif)
 :::
 
 :::: {.column width="65%"}
-::: fragment
-![](img/ssm.svg)
-:::
+![](img/traitTS_causal.png)
 ::::
 ::::::
 
-## A moonshot solution ! {style="text-align: center;"}
+## A common framework to unify theory! {style="text-align: center;"}
 
-Describing eco-evolutionary dynamics by integrating trait-based and metabolic scaling theories
+Describing eco-evolutionary dynamics by harmonizing existing theory in a trait-based framework
 
 :::::: columns
 ::: {.column width="70%"}
@@ -294,9 +293,7 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 ::::
 ::::::
 
-## {background-image="img/thematrix.webp" background-position="center"}
-
-##  {background-video="img/Simons_Fig_Anim.mov" background-video-muted="true" background-size="contain"}
+##  {background-video="img/Simons_Fig_Anim_smaller.mp4" background-video-muted="true" background-size="contain"}
 
 ## Our Team {background-image="img/BioTraCE_team.png" background-position="center"}
 
@@ -319,7 +316,87 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 ::::
 :::::
 
-## What success looks like... 
+## What success looks like? {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+::::::::: center
+:::::::: columns
+::: {.column width="30%"}
+Fynbos?
+
+![](img/silvermine_mortality.jpg)
+:::
+
+:::: {.column width="30%"}
+::: fragment
+Global Biodiversity?
+
+![](img/BendingTheCurve.png)
+:::
+::::
+
+:::: {.column width="30%"}
+::: fragment
+Global Biodiversity?
+
+![](img/BendingTheCurve.png)
+:::
+::::
+::::::::
+:::::::::
+
+## What success looks like? {auto-animate="true" auto-animate-easing="ease-in-out" style="text-align: center;"}
+
+::::::::: center
+:::::::: columns
+
+:::: {.column width="25%"}
+
+![](img/silvermine_mortality.jpg)
+![](img/BendingTheCurve.png)
+![](img/BendingTheCurve.png)
+
+::::
+
+:::: {.column width="5%"}
+::::
+
+:::: {.column width="35%"}
+::: fragment
+![](img/whatwewilldo.png){fig-align="center"}
+:::
+::::
+
+:::: {.column width="5%"}
+::::
+
+:::: {.column width="25%"}
+::: fragment
+![](img/silvermine_enhanced.jpg)
+![](img/gbif_africa.png)
+![](img/rothamsted-grass.jpeg)
+:::
+::::
+
+::::::::
+:::::::::
+
+##
+
+::::::::: center
+:::::::: columns
+::: {.column width="30%"}
+:::
+
+::: {.column width="30%"}
+:::
+
+::: {.column width="30%"}
+:::
+
+::::::::
+:::::::::
+
+##
 
 ![](img/success_draft.png)
 
@@ -333,123 +410,5 @@ Synthesizing theory across physiology, population biology, evolutionary biology,
 ::: {.column width="30%"}
 :::
 :::::
-
-## Slide Title Faded {background-image="img/NG/Adenandra villosa.jpg" background-size="400px" background-position="right" background-opacity="0.75"}
-
-## Our Team
-
-::::::::::::::: photo-grid
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Jasper Slingsby**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Ryan Blanchard**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Res Altwegg**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Samukelisiwe Msweli**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Patrick O’Farrell**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Andrew Skowno**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Erin Hestir**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Cory Merow**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Efthymios Nikolopoulos**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Maria Santos**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Philip Townsend**\
-Short description of its ecological role or key trait.
-:::
-
-::: photo-card
-![](img/team/jasper26.jpeg){.circle} **Adam Wilson**\
-Short description of its ecological role or key trait.
-:::
-:::::::::::::::
-
-
-## Slide with pic in absolute spot
-
-![](img/NG/Drosera%20capensis_flower.jpg){.absolute bottom="-50" right="850" width="400" height="600"}
-
-## Better not absolute {background-image="img/NG/Drosera capensis_flower.jpg" background-size="400px" background-position="left"}
-
-## Slide Title Faded {background-image="img/NG/Drosera capensis_flower.jpg" background-size="400px" background-position="right" background-opacity="0.75"}
-
-## Slide with parallax background {parallax-background-image="img/NG/Adenandra villosa.jpg"}
-
-## 
-
-::: r-fit-text
-A Slide with Big Text
-:::
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
-- Content authored with markdown
-- Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-## Columns
-
-:::::: columns
-::: {.column width="30%"}
-Left column
-:::
-
-::: {.column width="30%"}
-Middle column
-:::
-
-::: {.column width="30%"}
-Right column
-:::
-::::::
 
 ## Hide Slide From Counter {visibility="uncounted"}

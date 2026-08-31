@@ -130,7 +130,7 @@
     "href": "talks/SimonsBioTraCE.html#three-solutions",
     "title": "BioTRaCE",
     "section": "Three Solutions",
-    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nMechanistic links between scales from organism to ecosystem and Nature’s Contributions to People\n\n\n\n\nFortunately, the past few decades and recent developments are allowing us to overcome these challenges.\nFirstly, trait-based ecology allows us to simplify the complexity of biodiversity and explore mechanistic links and processes that scale from individual organisms to ecosystems and Nature’s Contributions to People, such as carbon sequestration or provision of clean water."
+    "text": "Three Solutions\n\n\nDiversity\n\n\n\nTrait-Based Ecology\n\nMechanistic links between scales from organism to ecosystem and Nature’s Contributions to People\n\n\n\n\nFortunately, the past few decades and recent developments are allowing us to overcome these challenges.\nFirstly, trait-based ecology allows us to simplify the complexity of biodiversity and explore mechanistic links and processes that scale from individual organisms to ecosystems and Nature’s Contributions to People, such as carbon sequestration, provision of clean water, or even human well-being."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-solutions-1",
@@ -151,28 +151,28 @@
     "href": "talks/SimonsBioTraCE.html#combining-the-solutions",
     "title": "BioTRaCE",
     "section": "Combining the solutions",
-    "text": "Combining the solutions\nTrait maps from field surveys and imaging spectroscopy\n\n\n \n\n\n\n\n\n\n\n\n\n\nOur team have been working on these solutions and the potential to combine them to create something transformational for biodiversity theory, observation and forecasting.\nFirstly, members of our team have been leading efforts to map plant traits from imaging spectroscopy (hyperspectral remote sensing) groundtruthed with field data.\nHere we see false colour composites of 18 NEON landscapes in the US with three traits, Phenolics, Chlorophyll and Leaf Mass per unit Area mapped to red, green and blue. As you can see, these images reveal drastic variation in these traits within and between landscapes, revealing the legacy of ecological or land-use histories.\nOur team members have also been involved in the development of hyperspectral satellite missions (NASA’s Eagle and ESA’s CHIME) that are to be launched in the next 2-3 years."
+    "text": "Combining the solutions\nTrait maps from field surveys and imaging spectroscopy\n\n\n \n\n\n\n\n\n\n\n\n\n\nOur team have been working on these solutions and the potential to combine them to create something transformational for biodiversity theory, observation and forecasting.\nFirstly, members of our team have been leading efforts to map plant traits from imaging spectroscopy (hyperspectral remote sensing) groundtruthed with field data.\nHere we see false colour composites of 18 NEON landscapes in the US with three traits, Phenolics, Chlorophyll and Leaf Mass per unit Area mapped to red, green and blue. As you can see, these images reveal drastic variation in these traits within and between landscapes, revealing the legacy of ecological or land-use histories.\nOur team members have also been involved in the development of hyperspectral satellite missions (NASA’s Eagle and ESA’s CHIME), that are to be launched in the next 2-3 years."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-1",
     "href": "talks/SimonsBioTraCE.html#combining-the-solutions-1",
     "title": "BioTRaCE",
     "section": "Combining the solutions",
-    "text": "Combining the solutions\nTrait time-series from multispectral satellites\n\n\n \n\n\n\n\n\n\n\nTime-series of traits from hyperspectral satellites will be transformational for biodiversity science and monitoring, but existing airborne and satellite data are patchy in space and time.\nAn intermediate approach, until definitive data becomes available, is to use field data and trait maps from airborne campaigns to calibrate and develop trait time-series from existing multispectral satellite records such as Landsat or Sentinel."
+    "text": "Combining the solutions\nTrait time-series from multispectral satellites\n\n\n \n\n\n\n\n\n\n\nTime-series of traits from hyperspectral satellites will be transformational for biodiversity science and monitoring, but existing airborne and satellite data are patchy in space and time.\nAn intermediate approach, to prepare for regular hyperspectral satellite data with continuous coverage, is to use field data and trait maps from airborne campaigns to calibrate and develop trait time-series from existing multispectral satellite records such as Landsat or Sentinel."
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-2",
     "href": "talks/SimonsBioTraCE.html#combining-the-solutions-2",
     "title": "BioTRaCE",
     "section": "Combining the solutions",
-    "text": "Combining the solutions\nModelling and forecasting trait time-series"
+    "text": "Combining the solutions\nModel and forecast trait time-series"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-3",
     "href": "talks/SimonsBioTraCE.html#combining-the-solutions-3",
     "title": "BioTRaCE",
     "section": "Combining the solutions",
-    "text": "Combining the solutions\nUsing causal statistics to test drivers and theory at scale"
+    "text": "Combining the solutions\nUse counterfactual forecasts to test causal drivers and theory"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#a-moonshot-solution",
@@ -192,8 +192,8 @@
     "objectID": "talks/SimonsBioTraCE.html#what-success-looks-like",
     "href": "talks/SimonsBioTraCE.html#what-success-looks-like",
     "title": "BioTRaCE",
-    "section": "What success looks like…",
-    "text": "What success looks like…"
+    "section": "What success looks like?",
+    "text": "What success looks like?\n\n\n\nFynbos?\n\n\n\nGlobal Biodiversity?\n\n\n\n\nGlobal Biodiversity?"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#biotrace",
@@ -291,7 +291,7 @@
     "href": "talks/SimonsBioTraCE.html#section-4",
     "title": "BioTRaCE",
     "section": "",
-    "text": "[Or present something like this and say “We will develop a unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.”?]"
+    "text": "A unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.\n\n\n[Or present something like this and say “We will develop a unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.”?]"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#section-2",
@@ -305,7 +305,7 @@
     "href": "talks/SimonsBioTraCE.html#section-5",
     "title": "BioTRaCE",
     "section": "",
-    "text": "A Slide with Big Text"
+    "text": "A unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.\n\n\n[Or present something like this and say “We will develop a unified framework for iteratively testing theory and predicting biodiversity dynamics and Nature’s Contributions to People across space and time.”?]"
   },
   {
     "objectID": "talks/SimonsBioTraCE.html#three-core-challenges-1",
@@ -334,5 +334,33 @@
     "title": "BioTRaCE",
     "section": "",
     "text": "A Slide with Big Text"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#a-common-framework-to-unify-theory",
+    "href": "talks/SimonsBioTraCE.html#a-common-framework-to-unify-theory",
+    "title": "BioTRaCE",
+    "section": "A common framework to unify theory!",
+    "text": "A common framework to unify theory!\nDescribing eco-evolutionary dynamics by harmonizing existing theory in a trait-based framework\n\n\n\n\n\n\nSynthesizing theory across physiology, population biology, evolutionary biology, community ecology, ecosystem ecology, and global ecology."
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-4",
+    "href": "talks/SimonsBioTraCE.html#combining-the-solutions-4",
+    "title": "BioTRaCE",
+    "section": "Combining the solutions",
+    "text": "Combining the solutions\nModelling and forecasting trait time-series"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#combining-the-solutions-5",
+    "href": "talks/SimonsBioTraCE.html#combining-the-solutions-5",
+    "title": "BioTRaCE",
+    "section": "Combining the solutions",
+    "text": "Combining the solutions\nUsing causal statistics to test drivers and theory at scale"
+  },
+  {
+    "objectID": "talks/SimonsBioTraCE.html#what-success-looks-like-1",
+    "href": "talks/SimonsBioTraCE.html#what-success-looks-like-1",
+    "title": "BioTRaCE",
+    "section": "What success looks like?",
+    "text": "What success looks like?"
   }
 ]
